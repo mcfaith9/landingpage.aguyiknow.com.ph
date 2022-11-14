@@ -91,4 +91,8 @@ body {
     color: #02B79C;
     font-size: 3.5rem;
 }
+.socialcontainer a:hover {
+    color: white;
+    transform: scale(1.2);
+}
 
