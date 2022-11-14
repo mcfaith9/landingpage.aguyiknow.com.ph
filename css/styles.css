@@ -168,16 +168,34 @@ body {
     /* border: 1px solid white; */
 }
 
-.line1 {
+.slide-right {
     width: 50rem;
     height: .2rem;
     background-color: #02B79C;
+    animation: 3s slide-right;
 }
-
-.line2 {
+@keyframes slide-right {
+  from {
+    margin-left: -150%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+/***** Slide Left *****/
+.slide-left {
     width: 45rem;
     height: .2rem;
     background-color: #02B79C;
+    animation: 3s slide-left;
+}
+@keyframes slide-left {
+  from {
+    margin-left: 400%;
+  }
+  to {
+    margin-left: 0%;
+  }
 }
 /* keyframes start */
 @keyframes overlay {
