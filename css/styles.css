@@ -21,6 +21,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
+
 }
 
 .navlist li {
@@ -43,9 +44,27 @@ body {
     align-items: center;
     justify-content: space-around;
 }  
+.navlist a:hover {
+    transform: scale(1.2);
+}
+.navlist a::after{
+    content: '';
+	height: 3px;
+	top: 100%;
+	border-radius: 1px;
+	position: absolute;
+	background: #02B79C;
+	transition: 0.5s;
+	box-shadow: 0px 0px 8px #02B79C;
+}
+.navlist a:hover::after{
+    width: 70%;
+    transform: translateX(50%);
+}
 .agikxwb:hover {
     transform: scale(1.2);
 }
+
 /* HOME */
 .logocontainer {
     position: absolute;
@@ -74,8 +93,8 @@ body {
 .subtitle p {
     font-size: 2.5rem;
     color: white;
-    position: relative;
 }
+
 .socialcontainer {
     position: absolute;
     top: 50%;
@@ -92,8 +111,6 @@ body {
 .socialcontainer a {
     color: #02B79C;
     font-size: 3.5rem;
-    transition: .3s ease;
-    transition-property: color;
 }
 
 .socialcontainer a:hover {
