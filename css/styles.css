@@ -38,7 +38,7 @@ body {
 
 .navlist {
     display: flex;
-    width: 50%;
+    width: 90rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
     align-items: center;
@@ -110,7 +110,7 @@ body {
 }   
 .socialcontainer {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 4rem;
     transform: translate(-0%, -50%);
     display: flex;
@@ -121,13 +121,10 @@ body {
     /* margin-left: 3rem; */
 
 }
-.socialcontainer a {
-    color: #02B79C;
-    font-size: 3.5rem;
-}
 
-.socialcontainer a:hover {
-    color: white;
+
+svg:hover {
+    fill: white;
     transform: scale(1.2);
 }
 
@@ -230,7 +227,7 @@ body {
     display: flex;
     justify-content: right;
     /* border: 1px solid white; */
-    width: 80%;
+    width: 85%;
 }
 
 .about-maincontainer {
