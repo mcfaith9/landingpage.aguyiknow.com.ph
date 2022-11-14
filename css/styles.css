@@ -95,9 +95,7 @@ body {
     transition: .3s ease;
     transition-property: color;
 }
-.socialcontainer a:hover {
-    color: white;
-}
+
 .socialcontainer a:hover {
     color: white;
     transform: scale(1.2);
