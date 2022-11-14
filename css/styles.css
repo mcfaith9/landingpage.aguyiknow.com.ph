@@ -6,7 +6,7 @@
 
 html {
     font-size: 10px;
-    font-family: 'Roboto', 'Roboto Condensed', 'Roboto Flex', 'Inter', 'Merriweather';
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -66,6 +66,13 @@ body {
 }
 
 /* HOME */
+.home-container {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    margin-top: -77px;
+}
+
 .logocontainer {
     position: absolute;
     top: 50%;
@@ -143,7 +150,7 @@ body {
 
 .description-container {
     position: absolute;
-    top: 85%;
+    top: 87%;
     left: 15%;
     transform: translate(-0%, -50%);
     /* border: 1px solid white; */
@@ -217,3 +224,37 @@ body {
     }
 }
 /* keyframes end */
+
+/* ABOUT US */
+.about-outercontainer {
+    display: flex;
+    justify-content: right;
+    /* border: 1px solid white; */
+    width: 80%;
+}
+
+.about-maincontainer {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid white; */
+    width: 90rem;
+    gap: 1rem;
+}
+
+.aboutdescription {
+    color: white;
+    font-size: 1.7rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: right;
+}
+
+.abouttitle {
+    color: #02B79C;
+    /* transform-origin: 50% 50%;
+    transform: rotate(90deg); */
+    writing-mode: vertical-rl;
+    font-size: 7rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    /* border: 1px solid white; */
+}
