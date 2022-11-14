@@ -97,7 +97,7 @@ body {
 
 .socialcontainer {
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 4rem;
     transform: translate(-0%, -50%);
     display: flex;
