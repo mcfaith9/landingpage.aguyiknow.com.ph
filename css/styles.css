@@ -98,3 +98,8 @@ body {
 .socialcontainer a:hover {
     color: white;
 }
+.socialcontainer a:hover {
+    color: white;
+    transform: scale(1.2);
+}
+
