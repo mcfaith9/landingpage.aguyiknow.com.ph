@@ -94,7 +94,13 @@ body {
     font-size: 2.5rem;
     color: white;
 }
-
+.reveal {
+    color: white;
+    height: 100%;
+    width: 0;
+    background-color: transparent;
+    animation: text_reveal 5s ease forwards;
+}   
 .socialcontainer {
     position: absolute;
     top: 40%;
@@ -173,3 +179,23 @@ body {
     height: .2rem;
     background-color: #02B79C;
 }
+/* keyframes start */
+@keyframes overlay {
+    50% {
+        width: 100%;
+        left: 0;
+    }
+    100% {
+        left: 100%;
+        width: 0;
+    }
+}
+@keyframes text_reveal {
+    100% {
+        color: #02B79C;
+    }
+    50% {
+        color: #000B14;
+    }
+}
+/* keyframes end */
