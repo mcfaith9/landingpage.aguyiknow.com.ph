@@ -23,31 +23,26 @@ body {
     align-items: flex-start;
 
 }
-.navlist a{
-    animation: nav 1s;
-}
-@keyframes nav {
-    0% {
-         transform: translateY(-100%);
-     }
- }
-.navlist li {
+
+.navlist a {
     color: white;
     list-style: none;
     font-size: 2rem;
     font-family: 'Roboto Condensed';
+    
 }
-
 .navlist a {
     text-decoration: none;
+    animation: nav 1.5s;
 }
 .navlist {
     display: flex;
-    width: 90rem;
+    width: 50%;
     padding-top: 2rem;
     padding-bottom: 2rem;
     align-items: center;
     justify-content: space-around;
+    z-index: 99;
 }  
 .navlist a:hover {
     transform: scale(1.2);
@@ -69,6 +64,7 @@ body {
 .agikxwb:hover {
     transform: scale(1.2);
 }
+
 
 /* HOME */
 .home-container {
@@ -114,16 +110,7 @@ body {
     background-color: transparent;
     animation: text_reveal 5s ease forwards;
 }
-/* keyframes start */
-@keyframes text_reveal {
-    100% {
-        color: #02B79C;
-    }
-    50% {
-        color: #ffffff;
-    }
-}
-/* keyframes end */
+
 .socialcontainer {
     position: absolute;
     top: 50%;
@@ -139,11 +126,6 @@ body {
 }
 .socialcontainer a{
     animation: animate 1.5s;
-}
-@keyframes animate {
-    0% {
-        transform: translate(-100%);
-    }
 }
 svg:hover {
     fill: white;
@@ -168,11 +150,6 @@ svg:hover {
     background-color: #02B79C;
     animation: dots 1.5s;
 }
-@keyframes dots {
-    0% {
-        transform: translateY(200%);
-    }
-}
 
 
 .description-container {
@@ -192,12 +169,7 @@ svg:hover {
     font-size: 1.5rem;
     font-family: 'Inter' sans-serif;
     font-weight: 300;
-    animation: description 1.5s;
-}
-@keyframes description {
-    0% {
-        transform: translate(-100%);
-    }
+    animation: slide-left 1.5s;
 }
 .line {
     display: flex;
@@ -213,25 +185,13 @@ svg:hover {
     background-color: #02B79C;
     animation: 1.5s slide-right;
 }
-/***** Slide Right *****/
-@keyframes slide-right {
-   0% {
-        transform: translate(150%);
-    }
-}
-/***** Slide Left *****/
+
 .slide-left {
     width: 45rem;
     height: .2rem;
     background-color: #02B79C;
     animation: 1.5s slide-left;
 }
-@keyframes slide-left {
-    0% {
-        transform: translate(-100%);
-      }
-}
-
 /* ABOUT US */
 .about-outercontainer {
     display: flex;
@@ -315,17 +275,6 @@ svg:hover {
     right: 25px;
   }
 
-@keyframes arrow-load {
-    0%{
-        opacity: 0;
-    }
-    0%{
-        opacity: 1;
-    }
-    100%{
-        opacity: 0;
-    }
-}
 
  .dotscontainer2 {
     position: absolute;
@@ -381,3 +330,51 @@ svg:hover {
     left: 50%;
     transform: translate(-50%, 27%);
 }
+
+/* keyframes start */
+@keyframes text_reveal {
+    100% {
+        color: #02B79C;
+    }
+    50% {
+        color: #ffffff;
+    }
+}
+@keyframes animate {
+    0% {
+        transform: translate(-100%);
+    }
+}
+@keyframes nav {
+    0% {
+        transform: translateY(-100%);
+    }
+}
+@keyframes dots {
+    0% {
+        transform: translateY(200%);
+    }
+}
+@keyframes slide-right {
+   0% {
+        transform: translate(150%);
+    }
+}
+@keyframes slide-left {
+    0% {
+        transform: translate(-100%);
+      }
+}
+
+@keyframes arrow-load {
+    0%{
+        opacity: 0;
+    }
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+/* keyframes end */
