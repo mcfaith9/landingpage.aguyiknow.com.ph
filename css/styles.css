@@ -76,6 +76,7 @@ body {
     width: 100%;
     min-height: 100vh;
     margin-top: -77px;
+    position: relative;
 }
 
 .logocontainer {
@@ -119,7 +120,7 @@ body {
         color: #02B79C;
     }
     50% {
-        color: #000B14;
+        color: #ffffff;
     }
 }
 /* keyframes end */
@@ -239,6 +240,7 @@ svg:hover {
     /* border: 1px solid white; */
     width: 100%;
     min-height:50vh;
+    position: relative;
 }
 
 .about-maincontainer {
@@ -254,6 +256,7 @@ svg:hover {
     display: flex;
     flex-direction: column;
     align-items: right;
+    justify-content: center;
     /* border: 1px solid white; */
     gap: 2rem;
 }
@@ -311,6 +314,7 @@ svg:hover {
   .left:nth-child(5) {
     right: 25px;
   }
+
 @keyframes arrow-load {
     0%{
         opacity: 0;
@@ -321,4 +325,15 @@ svg:hover {
     100%{
         opacity: 0;
     }
+}
+
+ .dotscontainer2 {
+    position: absolute;
+    bottom: 3rem;
+    left: 3rem;
+    transform: translate(0%, 0%);
+    display: grid;
+    grid-template-columns: repeat(6, 1rem);
+    gap: 3rem;
+    animation: dots 2s;
 }
