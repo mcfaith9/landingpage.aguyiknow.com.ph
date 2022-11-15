@@ -245,16 +245,27 @@ svg:hover {
 .about-outercontainer {
     display: flex;
     justify-content: right;
+    align-items: center;
     /* border: 1px solid white; */
-    width: 85%;
+    width: 100%;
+    min-height:50vh;
 }
 
 .about-maincontainer {
     display: flex;
-    align-items: center;
+    
     /* border: 1px solid white; */
     width: 70rem;
     gap: 1rem;
+    margin-right: 17%;
+}
+
+.rightabout {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    /* border: 1px solid white; */
+    gap: 2rem;
 }
 
 .aboutdescription {
@@ -274,3 +285,22 @@ svg:hover {
     font-weight: bold;
     /* border: 1px solid white; */
 }
+
+.arrowcontainer {
+    display: flex;
+    justify-content: right;
+
+}
+.arrow {
+    border: solid #02B79C;
+    border-width: 0 6px 6px 0;
+    padding: 5px;
+    /* width: 0; */
+    /* position: relative;
+    left:58rem;
+    top:1rem; */
+  }
+
+  .left {
+    transform: rotate(135deg);
+  }
