@@ -344,3 +344,40 @@ svg:hover {
     min-height: 200vh;
     background-color: white;
 }
+
+.arrowdowncircle {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* border: 1px solid red; */
+}
+
+.arrow2 {
+    border: solid #000B14;
+    border-width: 0 8px 8px 0;
+    padding: 10px;
+    
+}
+
+.down {
+    transform: rotate(45deg);
+}
+
+.circle  {
+    position: relative;
+    transform: translate(-50%, -50%);
+    background-color: #02B79C;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrowcontainer2 {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 27%);
+}
