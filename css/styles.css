@@ -112,7 +112,17 @@ body {
     width: 0;
     background-color: transparent;
     animation: text_reveal 5s ease forwards;
-}   
+}
+/* keyframes start */
+@keyframes text_reveal {
+    100% {
+        color: #02B79C;
+    }
+    50% {
+        color: #000B14;
+    }
+}
+/* keyframes end */
 .socialcontainer {
     position: absolute;
     top: 50%;
@@ -220,26 +230,6 @@ svg:hover {
         transform: translate(-100%);
       }
 }
-/* keyframes start */
-@keyframes overlay {
-    50% {
-        width: 100%;
-        left: 0;
-    }
-    100% {
-        left: 100%;
-        width: 0;
-    }
-}
-@keyframes text_reveal {
-    100% {
-        color: #02B79C;
-    }
-    50% {
-        color: #000B14;
-    }
-}
-/* keyframes end */
 
 /* ABOUT US */
 .about-outercontainer {
