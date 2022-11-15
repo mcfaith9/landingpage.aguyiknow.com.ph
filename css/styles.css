@@ -300,9 +300,6 @@ svg:hover {
     align-items: flex-start;
     /* border: 1px solid red; */
 }
-.arrowdowncircle:hover {
-    transform: scale(1.1);
-}
 .arrow2 {
     border: solid #000B14;
     border-width: 0 8px 8px 0;
