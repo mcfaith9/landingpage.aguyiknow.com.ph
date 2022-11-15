@@ -239,7 +239,7 @@ svg:hover {
     align-items: center;
     /* border: 1px solid white; */
     width: 100%;
-    min-height:50vh;
+    min-height:40vh;
     position: relative;
 }
 
@@ -330,10 +330,17 @@ svg:hover {
  .dotscontainer2 {
     position: absolute;
     bottom: 3rem;
-    left: 3rem;
+    left: 15rem;
     transform: translate(0%, 0%);
     display: grid;
     grid-template-columns: repeat(6, 1rem);
     gap: 3rem;
     animation: dots 2s;
+}
+
+/* PROJECTS */
+.projects-outercontainer {
+    width: 100%;
+    min-height: 200vh;
+    background-color: white;
 }
