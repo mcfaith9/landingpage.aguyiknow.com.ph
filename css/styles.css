@@ -497,6 +497,7 @@ svg:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 2rem;
 }
 
 .servicestitle {
@@ -504,8 +505,8 @@ svg:hover {
     font-size: 7rem;
     font-family: 'Inter', sans-serif;
     font-weight: bold;
-    margin-right: 2rem;
 }
+
 
 .arrowcontainer4 {
     display: flex;
@@ -555,6 +556,55 @@ svg:hover {
 .box:hover h3{
 	color: #ffffff;
 } 
+
+.get {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.getleft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.getleft p {
+    font-size: 3.4rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+.getleft p:last-of-type {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.getright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.getright p {
+    font-size: 3.4rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+.getright p:last-of-type {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.line2 {
+    width: 15rem;
+    height: 2px;
+    background-color: #000B14;
+}
+
 @keyframes fade {
     from {opacity: .4} 
     to {opacity: 1}
