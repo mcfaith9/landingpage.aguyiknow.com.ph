@@ -10,11 +10,6 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
-body {
-    background-color: #000B14;
-    width: 100%;
-    min-height: 100vh;
-}
 
 /* NAVBAR */
 .navcontainer {
@@ -77,6 +72,8 @@ body {
     min-height: 100vh;
     margin-top: -77px;
     position: relative;
+    background-color: #000B14;
+    
 }
 
 .logocontainer {
@@ -205,6 +202,7 @@ svg:hover {
     width: 100%;
     min-height:40vh;
     position: relative;
+    background-color: #000B14;
 }
 
 .about-maincontainer {
