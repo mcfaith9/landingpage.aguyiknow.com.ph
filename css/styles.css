@@ -485,7 +485,76 @@ svg:hover {
     background-color: #000B14;
     animation: dots 1.5s;
 }
-  
+ /* Services */
+ .services-outercontainer {
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+  .services-maincontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.servicestitle {
+    color: #000B14;
+    font-size: 7rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    margin-right: 2rem;
+}
+
+.arrowcontainer4 {
+    display: flex;
+    gap: .5rem;
+}
+
+.arrow4 {
+    border: solid #000B14;
+    border-width: 0 6px 6px 0;
+    padding: 7px;
+  }
+.right {
+    transform: rotate(315deg);
+}
+.service-content{
+    padding: 100px 16% 90px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+.box{
+	padding: 45px;
+	background: #000B14;
+	border-top: 5px solid transparent;
+	border-radius: 0.5rem;
+	transition: all .40s ease;
+	cursor: pointer;
+}
+.box h3{
+    color: #02B79C;
+	font-size: 24px;
+	font-weight: 600;
+	margin: 15px 0;
+	transition: all .40s ease;
+}
+.box p{
+	color: white;
+	font-size: 2rem;
+	line-height: 30px;
+}
+.box:hover{
+	transform: scale(1.01) translateY(-5px);
+	border-top: 5px solid #02B79C;
+}
+.box:hover h3{
+	color: #ffffff;
+} 
 @keyframes fade {
     from {opacity: .4} 
     to {opacity: 1}
