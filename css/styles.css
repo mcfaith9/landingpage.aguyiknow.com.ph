@@ -475,7 +475,6 @@ svg:hover {
     display: grid;
     grid-template-columns: repeat(6, 1rem);
     gap: 2.5rem;
-    animation: dots 2s;
 }
 
 .dots2 {
@@ -487,6 +486,7 @@ svg:hover {
 }
  /* Services */
  .services-outercontainer {
+    margin-top: 7rem;
     width: 100%;
     min-height: 100vh;
     background-color: white;
@@ -530,7 +530,8 @@ svg:hover {
     gap: 2rem;
 }
 .box{
-	padding: 45px;
+    font-family: 'Roboto Condensed', sans-serif;
+	padding: 75px;
 	background: #000B14;
 	border-top: 5px solid transparent;
 	border-radius: 0.5rem;
