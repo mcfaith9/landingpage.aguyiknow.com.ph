@@ -61,6 +61,9 @@ body {
     width: 70%;
     transform: translateX(50%);
 }
+.agikxwb{
+    transform: infinite;
+}
 .agikxwb:hover {
     transform: scale(1.2);
 }
@@ -125,7 +128,7 @@ body {
 
 }
 .socialcontainer a{
-    animation: animate 1.5s;
+    animation: slide-left 1.5s;
 }
 svg:hover {
     fill: white;
@@ -284,7 +287,6 @@ svg:hover {
     display: grid;
     grid-template-columns: repeat(6, 1rem);
     gap: 3rem;
-    animation: dots 2s;
 }
 
 /* PROJECTS */
@@ -321,7 +323,7 @@ svg:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 0px 7px 2px #02B79C;
+    box-shadow: 0px 0px 7px 1px #02B79C;
 }
 .arrowcontainer2 {
     position: absolute;
@@ -335,15 +337,11 @@ svg:hover {
     100% {
         color: #02B79C;
     }
-    50% {
+    0% {
         color: #ffffff;
     }
 }
-@keyframes animate {
-    0% {
-        transform: translate(-100%);
-    }
-}
+
 @keyframes nav {
     0% {
         transform: translateY(-100%);
