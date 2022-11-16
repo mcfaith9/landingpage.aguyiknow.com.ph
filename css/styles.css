@@ -331,7 +331,7 @@ svg:hover {
     transition: box-shadow .17s;
 }
 .circle:hover {
-    box-shadow: 4px 4px 4px #81ada7;
+    box-shadow: 0px 4px 4px #81ada7;
 }
 .arrowcontainer2 {
     position: absolute;
