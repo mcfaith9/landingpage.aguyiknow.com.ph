@@ -210,7 +210,7 @@ svg:hover {
     display: flex;
     
     /* border: 1px solid white; */
-    width: 70rem;
+    
     gap: 1rem;
     margin-right: 17%;
 }
@@ -220,6 +220,7 @@ svg:hover {
     flex-direction: column;
     align-items: right;
     justify-content: center;
+    width: 70rem;
     /* border: 1px solid white; */
     gap: 2rem;
 }
@@ -245,12 +246,13 @@ svg:hover {
 .arrowcontainer {
     display: flex;
     justify-content: right;
-
+    gap: .5rem;
 }
+
 .arrow {
     border: solid #02B79C;
     border-width: 0 6px 6px 0;
-    padding: 5px;
+    padding: 7px;
     /* width: 0; */
     /* position: relative;
     left:58rem;
@@ -292,8 +294,11 @@ svg:hover {
 /* PROJECTS */
 .projects-outercontainer {
     width: 100%;
-    min-height: 200vh;
+    min-height: 100vh;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
 }
 
 .arrowdowncircle {
@@ -331,6 +336,45 @@ svg:hover {
     left: 50%;
     transform: translate(-50%, 27%);
 }
+
+.projects-maincontainer {
+    display: flex;
+    align-items: center;
+    margin-left: 17%;
+
+}
+
+.projecttitle {
+    color: #000B14;
+    /* transform-origin: 50% 50%; */
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    font-size: 7rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    /* border: 1px solid white; */
+}
+
+.projectleft {
+    display: flex;
+}
+
+.arrowcontainer3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: .5rem;
+}
+
+.arrow3 {
+    border: solid #000B14;
+    border-width: 0 6px 6px 0;
+    padding: 7px;
+    /* width: 0; */
+    /* position: relative;
+    left:58rem;
+    top:1rem; */
+  }
 
 /* keyframes start */
 @keyframes text_reveal {
