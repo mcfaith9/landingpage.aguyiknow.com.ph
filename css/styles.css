@@ -522,7 +522,7 @@ svg:hover {
     transform: rotate(315deg);
 }
 .service-content{
-    padding: 100px 16% 90px;
+    margin: 100px 16% 90px;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,auto));
     align-items: center;
