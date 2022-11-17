@@ -312,7 +312,7 @@ svg:hover {
     
 }
 
-.down {
+.down1 {
     transform: rotate(45deg);
 }
 
@@ -378,7 +378,27 @@ svg:hover {
     left:58rem;
     top:1rem; */
 }
-
+.down {
+    transform: rotate(45deg);
+    animation: arrow-load 2s infinite;
+  }
+  .down:nth-child(1) {
+    left: 25px;
+    animation-delay: 0.2s;
+  }
+  .down:nth-child(2) {
+    animation-delay: 0.4s;
+  }
+  .down:nth-child(3) {
+    animation-delay: 0.6s;
+  }
+  .down:nth-child(4) {
+    animation-delay: 0.8s;
+  }
+  .down:nth-child(5) {
+    right: 25px;
+    animation-delay: .99s;
+  }
 .mySlides {
     display: none;
 }
@@ -521,9 +541,28 @@ svg:hover {
     border-width: 0 6px 6px 0;
     padding: 7px;
   }
+  
 .right {
     transform: rotate(315deg);
+    animation: arrow-load 2s infinite;
 }
+  .right:nth-child(1) {
+    left: 25px;
+    animation-delay: 0.2s;
+  }
+  .right:nth-child(2) {
+    animation-delay: 0.4s;
+  }
+  .right:nth-child(3) {
+    animation-delay: 0.6s;
+  }
+  .right:nth-child(4) {
+    animation-delay: 0.8s;
+  }
+  .right:nth-child(5) {
+    right: 25px;
+    animation-delay: .99s;
+  }
 
 .service-content{
     margin: 0px 16%;
