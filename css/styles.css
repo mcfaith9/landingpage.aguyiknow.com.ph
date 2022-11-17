@@ -670,7 +670,7 @@ svg:hover {
     gap: 2.5rem;
 }
 
-/* OUT CLIENTS */
+/* OUR CLIENTS */
 .clients-outercontainer {
     background-color: #000B14;
     width: 100%;
@@ -688,7 +688,7 @@ svg:hover {
     border-left: 0px;
     border-right: 0px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     overflow: hidden;
 }
 
@@ -698,14 +698,16 @@ svg:hover {
     font-weight: bold;
     color: white;
     padding: 10px;
-    animation: marquee 10s linear infinite;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: marquee 6000ms linear infinite;
 }
 @keyframes marquee {
     0% {
-        transform: translate(0, 0);
+        transform: translateX(0);
     }
     100% {
-        transform: translate(-100%, 0);
+        transform: translateX(-100%);
     }
 }
 .companylogo-container {
@@ -745,14 +747,13 @@ svg:hover {
     align-items: center;
 
 }
-
 .contactleft p {
     color: white;
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    margin-top: 0;
 }
-
 .contactleft p:last-of-type {
     font-size: 8.5rem;
 }
