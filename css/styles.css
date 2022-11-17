@@ -670,6 +670,7 @@ svg:hover {
     gap: 2.5rem;
 }
 
+/* OUT CLIENTS */
 .clients-outercontainer {
     background-color: #000B14;
     width: 100%;
@@ -724,10 +725,38 @@ svg:hover {
     grid-template-columns: repeat(3, 20rem);
     justify-content: center;
     align-items: center;
-    column-gap: 8rem;
+    column-gap: 10rem;
     row-gap: 2rem;
-    padding: 2rem;
+    padding: 4rem;
 }
+
+/* CONTACTS */
+.contacts-background {
+    background-color: #000B14;
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactscontainer {
+    display: flex;
+    align-items: center;
+
+}
+
+.contactleft p {
+    color: white;
+    font-size: 4.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.contactleft p:last-of-type {
+    font-size: 8.5rem;
+}
+
 
 @keyframes fade {
     from {opacity: .4} 
