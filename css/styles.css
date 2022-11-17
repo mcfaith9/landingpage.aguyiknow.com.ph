@@ -492,6 +492,9 @@ svg:hover {
     background-color: white;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    position: relative;
+    gap: 10rem;
 }
   .services-maincontainer {
     display: flex;
@@ -521,8 +524,9 @@ svg:hover {
 .right {
     transform: rotate(315deg);
 }
+
 .service-content{
-    margin: 100px 16% 90px;
+    margin: 0px 16%;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,auto));
     align-items: center;
@@ -560,8 +564,8 @@ svg:hover {
 
 .get {
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
+    width: 100%;
 }
 
 .getleft {
@@ -604,6 +608,77 @@ svg:hover {
     width: 15rem;
     height: 2px;
     background-color: #000B14;
+}
+
+.dotscontainer4 {
+    
+    /* right: 50%;
+    transform: translate(50%, 0%); */
+    margin-bottom: 1.25rem;
+    display: grid;
+    grid-template-columns: repeat(10, 1rem);
+    gap: 2.5rem;
+}
+
+.dotscontainer5 {
+    /* position: absolute;
+    top: 1.5rem; */
+    /* right: 50%;
+    transform: translate(50%, 0%); */
+    margin-top: 1.25rem;
+    display: grid;
+    grid-template-columns: repeat(10, 1rem);
+    gap: 2.5rem;
+}
+
+.clients-outercontainer {
+    background-color: #000B14;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+}
+
+.clientcontainer {
+    width: 100%;
+    border: 3px solid #02B79C;
+    border-left: 0px;
+    border-right: 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.clientcontainer p{
+    font-size: 2.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+
+.companylogo-container {
+    width: 100%;
+    min-height: 50vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.companylogo-container img {
+    width: 20rem;
+}
+
+.logos {
+    display: grid;
+    grid-template-columns: repeat(3, 20rem);
+    justify-content: center;
+    align-items: center;
+    column-gap: 8rem;
+    row-gap: 2rem;
+    padding: 2rem;
 }
 
 @keyframes fade {
