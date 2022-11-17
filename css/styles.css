@@ -697,8 +697,16 @@ svg:hover {
     font-weight: bold;
     color: white;
     padding: 10px;
+    animation: marquee 10s linear infinite;
 }
-
+@keyframes marquee {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-100%, 0);
+    }
+}
 .companylogo-container {
     width: 100%;
     min-height: 50vh;
