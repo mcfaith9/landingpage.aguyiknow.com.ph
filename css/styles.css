@@ -747,12 +747,21 @@ svg:hover {
     align-items: center;
 
 }
-.contactleft p {
+.top-left {
     color: white;
     font-size: 3.5rem;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     margin-top: 0;
+    letter-spacing: 2px;
+}
+.bot-left {
+    color: white;
+    font-size: 4.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    letter-spacing: 7px;
+    margin-bottom: 5px;
 }
 .contactleft p:last-of-type {
     font-size: 8.5rem;
