@@ -794,6 +794,19 @@ textarea {
     padding: 8px;
 }
 
+.sendbtn {
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    background-color: #000B14;
+    color: white;
+    transition: background-color .15s;
+}
+
+.sendbtn:hover {
+    background-color: #02B79C;
+}
+
 /* FOOTER */
 .footerbg {
     background-color: #041D32;
