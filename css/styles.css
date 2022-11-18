@@ -706,17 +706,6 @@ svg:hover {
     border-right: 0px;
 }
 
-
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-
-  100% {
-    transform: translateX(-100%);
-  }
-}
-
 .companylogo-container {
     width: 100%;
     min-height: 50vh;
@@ -823,10 +812,7 @@ textarea {
     color: white;
 }
 
-@keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-}
+
 
 /* keyframes start */
 @keyframes text_reveal {
@@ -868,6 +854,19 @@ textarea {
     }
     100%{
         opacity: 0;
+    } 
+}
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
     }
+  
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
 }
 /* keyframes end */
