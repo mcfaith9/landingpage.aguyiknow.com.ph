@@ -734,7 +734,7 @@ svg:hover {
     grid-template-columns: repeat(3, 20rem);
     justify-content: center;
     align-items: center;
-    column-gap: 10rem;
+    column-gap: 15rem;
     row-gap: 2rem;
     padding: 4rem;
 }
