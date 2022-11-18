@@ -682,34 +682,41 @@ svg:hover {
     gap: 7.5rem;
 }
 
-.clientcontainer {
-    width: 100%;
-    border: 3px solid #02B79C;
-    border-left: 0px;
-    border-right: 0px;
+.clients {
+    align-content: center;
+    --duration: 20s;
     display: flex;
-    justify-content: flex-start;
     overflow: hidden;
+    /* width: 100%; */
 }
 
-.clientcontainer p{
-    font-size: 2.2rem;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    color: white;
-    padding: 10px;
-    overflow: hidden;
-    white-space: nowrap;
-    animation: marquee 6000ms linear infinite;
+.clients__group {
+    display: flex;
+    color: #fff;
+    font-size: 5rem;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 100%;
+    animation: scroll var(--duration) linear infinite;
 }
-@keyframes marquee {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
+.clients--borders {
+    border: 2.5px solid #02B79C;
+    border-left: 0px;
+    border-right: 0px;
 }
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 .companylogo-container {
     width: 100%;
     min-height: 50vh;
