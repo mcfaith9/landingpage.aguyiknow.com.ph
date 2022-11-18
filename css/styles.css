@@ -752,7 +752,7 @@ svg:hover {
 .contactscontainer {
     display: flex;
     align-items: center;
-    gap: 3rem;
+    gap: 10rem;
 
 }
 .top-left {
