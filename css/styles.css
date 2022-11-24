@@ -70,7 +70,7 @@ html {
     width: 100%;
     min-height: 100vh;
     position: relative;
-    top: -77px;
+    margin-top: -77px;
     background-color: #000B14;
     
 }
