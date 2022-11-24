@@ -10,6 +10,9 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    background-color: #000B14;
+}
 
 /* NAVBAR */
 .navcontainer {
@@ -70,9 +73,8 @@ html {
     display: flex;
     width: 100%;
     min-height: 100vh;
-    margin-top: -77px;
     position: relative;
-    background-color: #000B14;
+    top: -77px;
     
 }
 
@@ -155,9 +157,9 @@ svg:hover {
 
 .description-container {
     position: absolute;
-    top: 87%;
+    bottom: 7%;
     left: 15%;
-    transform: translate(-0%, -50%);
+    /* transform: translate(-0%, -50%); */
     /* border: 1px solid white; */
     width: 50rem;
     display: flex;
@@ -197,10 +199,10 @@ svg:hover {
 .about-outercontainer {
     display: flex;
     justify-content: right;
-    align-items: center;
+    align-items: flex-start;
     /* border: 1px solid white; */
     width: 100%;
-    min-height:40vh;
+    min-height: 50vh;
     position: relative;
     background-color: #000B14;
 }
@@ -211,6 +213,7 @@ svg:hover {
     width: 70rem;
     gap: 1rem;
     margin-right: 17%;
+    margin-top: 2rem;
 }
 
 .rightabout {
@@ -291,7 +294,7 @@ svg:hover {
 /* PROJECTS */
 .projects-outercontainer {
     width: 100%;
-    min-height: 60vh;
+    min-height: 100vh;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -340,8 +343,12 @@ svg:hover {
 
 .projects-maincontainer {
     display: flex;
-    align-items: center;
-    margin-left: 17%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* margin-left: 17%; */
+    border: 1px solid red;
     gap: 4rem;
 
 }
@@ -404,11 +411,11 @@ svg:hover {
 }
 
 .slideshow-container {
-    width: 37.4rem;
+    width: 80rem;
     height: 37.4rem;
     position: relative;
     box-sizing: border-box;
-    border: 1px solid red;
+    border: 1px solid blue;
     /* margin: auto; */
 }
 
@@ -506,7 +513,6 @@ svg:hover {
 }
  /* Services */
  .services-outercontainer {
-    margin-top: 7rem;
     width: 100%;
     min-height: 100vh;
     background-color: white;
