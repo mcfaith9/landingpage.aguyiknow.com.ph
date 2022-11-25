@@ -127,6 +127,38 @@ html {
 .socialcontainer a{
     animation: slide-left 1.5s;
 }
+.facebook-icon-container,
+.youtube-icon-container,
+.instagram-icon-container, 
+.gmail-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.facebook-icon-container .tooltip,
+.youtube-icon-container .tooltip,
+.instagram-icon-container .tooltip,
+.gmail-icon-container .tooltip{
+    font-family: Roboto, Arial;
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    right: -100px;
+    bottom: 5px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+.facebook-icon-container:hover .tooltip,
+.youtube-icon-container:hover .tooltip,
+.instagram-icon-container:hover .tooltip,
+.gmail-icon-container:hover .tooltip {
+    opacity: 1;
+}
 svg:hover {
     fill: white;
     transform: scale(1.2);
