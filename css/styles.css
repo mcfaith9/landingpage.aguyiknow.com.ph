@@ -987,11 +987,12 @@ textarea {
     row-gap: 1rem;
     column-gap: 10rem;
 }
-
-.links-cont p:last-of-type {
-    font-weight: 100;
+.links-cont a {
+    color: #878787;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 14px;
 }
-
 /* .footerbg {
     background-color: #041D32;
     width: 100%;
