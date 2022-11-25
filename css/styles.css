@@ -372,12 +372,13 @@ svg:hover {
 
 .projects-maincontainer {
     display: flex;
+    align-items: center;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     /* margin-left: 17%; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
     gap: 4rem;
 
 }
@@ -435,27 +436,52 @@ svg:hover {
     right: 25px;
     animation-delay: .99s;
   }
+
 .mySlides {
     display: none;
 }
 
 .slideshow-container {
-    width: 80rem;
-    height: 37.4rem;
+    /* width: 70rem; */
+    /* height: 40rem; */
     position: relative;
     box-sizing: border-box;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
+    display: grid;
+    grid-template-columns: 60rem 30rem;
+    gap: 2rem;
+    padding: 1rem;
+    /* box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.589); */
+    /* border-radius: 10px; */
     /* margin: auto; */
+}
+
+.sld-left {
+    position:relative;
+}
+
+.sld-btns {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .prev, .next {
     cursor: pointer;
-    position: absolute;
-    top: 50%;
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
     width: auto;
     padding: 16px;
-    margin-top: -22px;
-    color: #000B14;
+    /* margin-top: -22px; */
+    color: white;
+    background-color: #000b1491;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
@@ -469,19 +495,20 @@ svg:hover {
 }
 
 .prev:hover, .next:hover {
+    color: #000B14;
     background-color: #02B79C;
 }
 
-.textcontainer {
+.sld-right {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     gap: 2rem;
-    position: absolute;
-    top: 0px;
-    left: 400px;
-    height: 37.4rem;
-    width: 37.4rem;
+    /* position: absolute; */
+    /* top: 0px; */
+    /* left: 400px; */
+    /* height: 37.4rem; */
+    /* width: 37.4rem; */
     /* border: 1px solid black; */
 }
 
@@ -523,6 +550,7 @@ svg:hover {
     border: 1px solid black; */
 }
 
+
 .dotscontainer3 {
     position: absolute;
     bottom: 3rem;
@@ -530,7 +558,7 @@ svg:hover {
     /* transform: translate(-0%, -50%); */
     display: grid;
     grid-template-columns: repeat(6, 1rem);
-    gap: 2.5rem;
+    gap: 2rem;
 }
 
 .dots2 {
