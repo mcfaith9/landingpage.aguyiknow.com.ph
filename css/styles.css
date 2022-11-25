@@ -644,6 +644,7 @@ svg:hover {
 	border-radius: 0.5rem;
 	transition: all .40s ease;
 	cursor: pointer;
+    position: relative;
 }
 .box h3{
     color: #02B79C;
@@ -654,7 +655,7 @@ svg:hover {
 }
 .box p{
 	color: white;
-	font-size: 2rem;
+	font-size: 18px;
 	line-height: 30px;
 }
 .box:hover{
@@ -663,8 +664,22 @@ svg:hover {
 }
 .box:hover h3{
 	color: #ffffff;
-} 
-
+}
+.image-contianer {
+    position: absolute;
+    left: -10px;
+}
+.service-image {
+    /* border: 1px solid white; */
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    transition: height 0.15s, width 0.15s;
+}
+.service-image:hover {
+    height: 250px;
+    width: 250px;
+}
 .get {
     display: flex;
     justify-content: space-evenly;
