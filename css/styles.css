@@ -129,7 +129,7 @@ html {
 }
 .facebook-icon-container,
 .youtube-icon-container,
-.instagram-icon-container, 
+.linkedin-icon-container, 
 .gmail-icon-container {
     display: flex;
     justify-content: center;
@@ -138,7 +138,7 @@ html {
 }
 .facebook-icon-container .tooltip,
 .youtube-icon-container .tooltip,
-.instagram-icon-container .tooltip,
+.linkedin-icon-container .tooltip,
 .gmail-icon-container .tooltip{
     font-family: Roboto, Arial;
     position: absolute;
@@ -155,7 +155,7 @@ html {
 }
 .facebook-icon-container:hover .tooltip,
 .youtube-icon-container:hover .tooltip,
-.instagram-icon-container:hover .tooltip,
+.linkedin-icon-container:hover .tooltip,
 .gmail-icon-container:hover .tooltip {
     opacity: 1;
 }
