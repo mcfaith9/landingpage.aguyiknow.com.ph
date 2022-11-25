@@ -358,10 +358,11 @@ svg:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: box-shadow .17s;
+    transition: padding .17s;
 }
 .circle:hover {
-    box-shadow: 0px 4px 4px #81ada7;
+    /* box-shadow: 0px 4px 4px #81ada7; */
+    padding: 1rem;
 }
 .arrowcontainer2 {
     position: absolute;
@@ -874,6 +875,7 @@ textarea {
 }
 
 /* FOOTER */
+
 /* .footerbg {
     background-color: #041D32;
     width: 100%;
@@ -888,7 +890,7 @@ textarea {
     font-family: 'Roboto', sans-serif;
     color: white;
 } */
-.footer-section {
+/* .footer-section {
   background: #041D32;
   position: relative;
 }
@@ -1029,7 +1031,7 @@ textarea {
 }
 .copyright-text p a{
   color: #ff5e14;
-}
+} */
 
 /* keyframes start */
 @keyframes text_reveal {
