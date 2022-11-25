@@ -698,6 +698,7 @@ svg:hover {
     display: flex;
     color: #fff;
     font-size: 4rem;
+    font-weight: bold;
     text-transform: uppercase;
     align-items: center;
     justify-content: space-around;
@@ -705,7 +706,7 @@ svg:hover {
     animation: scroll var(--duration) linear infinite;
 }
 .clients--borders {
-    border: 2.5px solid #02B79C;
+    border: 3.5px solid #02B79C;
     border-left: 0px;
     border-right: 0px;
 }
