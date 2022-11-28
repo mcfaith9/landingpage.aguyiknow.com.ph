@@ -674,12 +674,9 @@ svg:hover {
     height: 120px;
     width: 120px;
     object-fit: cover;
-    transition: height 0.20s, width 0.20s;
+    transition: height 0.15s, width 0.15s;
 }
-/* .service-image:hover {
-    height: 130px;
-    width: 130px;
-} */
+
 .get {
     display: flex;
     justify-content: space-evenly;
@@ -993,9 +990,6 @@ textarea {
     text-decoration: none;
     font-size: 14px;
 }
-.links-cont a:hover{
-        color: #02B79C;
-
 /* .footerbg {
     background-color: #041D32;
     width: 100%;
