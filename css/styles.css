@@ -701,11 +701,12 @@ svg:hover {
     font-weight: bold;
 }
 
-.getleft p:last-of-type {
+.getright a, .getleft a  {
     font-size: 1.5rem;
     font-weight: 400;
+    text-decoration: none;
+    color: #000B14;
 }
-
 .getright {
     display: flex;
     flex-direction: column;
@@ -717,11 +718,6 @@ svg:hover {
     font-size: 3.4rem;
     font-family: 'Inter', sans-serif;
     font-weight: bold;
-}
-
-.getright p:last-of-type {
-    font-size: 1.5rem;
-    font-weight: 400;
 }
 
 .line2 {
