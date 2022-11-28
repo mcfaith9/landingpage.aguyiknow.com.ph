@@ -906,9 +906,9 @@ textarea {
 }
 
 .topfooter, .bottomfooter{
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
     width: 100%;
 }
 
@@ -957,7 +957,6 @@ textarea {
 }
 
 .firstp {
-    max-width: 40rem;
     line-height: 2.5rem;
 }
 
