@@ -771,7 +771,7 @@ svg:hover {
 .clients__group {
     display: flex;
     color: #fff;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bold;
     text-transform: uppercase;
     align-items: center;
