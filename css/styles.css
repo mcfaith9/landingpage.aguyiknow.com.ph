@@ -1001,7 +1001,7 @@ textarea {
 .bf ul li {
     color: white;
     font-family: 'Inter', sans-serif;
-    width: 40rem;
+    /* width: 40rem; */
     /* list-style: inside; */
     font-weight: 100;
     font-size: 1.2rem;
@@ -1070,7 +1070,13 @@ textarea {
 
 /* for desktop */
 @media only screen and (max-width: 1440px){
+    .tf:first-of-type .tf-right {
+        width: 25rem;
+    }
 
+    .topfooter {
+        grid-template-columns: auto 1fr 2fr;
+    }
 }
 /* for laptop */
 @media only screen and (max-width: 1024px){
