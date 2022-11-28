@@ -639,6 +639,10 @@ svg:hover {
 }
 .box{
     font-family: 'Roboto Condensed', sans-serif;
+    min-height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 	padding: 75px;
 	background: #000B14;
 	border-top: 5px solid transparent;
