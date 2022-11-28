@@ -907,7 +907,7 @@ textarea {
 
 .topfooter, .bottomfooter{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 50rem);
     gap: 2rem;
     width: 100%;
 }
@@ -1002,7 +1002,6 @@ textarea {
     margin-left: 1.5rem;
 }
 
-
 /* keyframes start */
 @keyframes text_reveal {
     100% {
@@ -1059,3 +1058,22 @@ textarea {
     to {opacity: 1}
 }
 /* keyframes end */
+
+/* RESPONSIVE */
+
+/* for desktop */
+@media only screen and (max-width: 1440px){
+
+}
+/* for laptop */
+@media only screen and (max-width: 1024px){
+
+}
+/* for tablet */
+@media only screen and (max-width: 768px){
+
+}
+/* for mobile */
+@media only screen and (max-width: 414px){
+
+}
