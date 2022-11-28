@@ -228,7 +228,7 @@ svg:hover {
 .about-outercontainer {
     display: flex;
     justify-content: right;
-    align-items: flex-start;
+    align-items: center;
     /* border: 1px solid white; */
     width: 100%;
     min-height: 50vh;
