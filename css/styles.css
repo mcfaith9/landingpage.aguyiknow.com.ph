@@ -585,6 +585,7 @@ svg:hover {
     align-items: center;
     justify-content: center;
     gap: 2rem;
+    margin-bottom: -6rem;
 }
 
 .servicestitle {
