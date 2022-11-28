@@ -907,9 +907,13 @@ textarea {
 
 .topfooter, .bottomfooter{
     display: grid;
-    grid-template-columns: repeat(3, 50rem);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     width: 100%;
+}
+
+.tf:nth-of-type(2), .bf:nth-of-type(2) {
+    margin-left: 10rem;
 }
 
 .topfooter {
@@ -922,6 +926,7 @@ textarea {
     gap: 2rem;
 }
 
+
 .tf-right p {
     color: white;
     font-size: 1.4rem;
@@ -931,6 +936,7 @@ textarea {
 
 .tf-right p:last-of-type {
     font-weight: 100;
+    
 }
 
 .footer-separator {
@@ -958,6 +964,7 @@ textarea {
 
 .firstp {
     line-height: 2.5rem;
+
 }
 
 .bf:first-of-type p:last-of-type {
