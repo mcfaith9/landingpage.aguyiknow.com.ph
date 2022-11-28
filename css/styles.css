@@ -908,7 +908,7 @@ textarea {
 .topfooter, .bottomfooter{
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
-    gap: 15rem;
+    gap: 10%;
     width: 100%;
 }
 
