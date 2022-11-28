@@ -907,14 +907,14 @@ textarea {
 
 .topfooter, .bottomfooter{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    grid-template-columns: 2fr 1fr 2fr;
+    gap: 15rem;
     width: 100%;
 }
 
-.tf:nth-of-type(2), .bf:nth-of-type(2) {
+/* .tf:nth-of-type(2), .bf:nth-of-type(2) {
     margin-left: 10rem;
-}
+} */
 
 .topfooter {
     align-items: center;
