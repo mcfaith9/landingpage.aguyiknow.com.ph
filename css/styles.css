@@ -260,6 +260,10 @@ svg:hover {
     font-family: 'Roboto Condensed', sans-serif;
     text-align: right;
 }
+.leftabout {
+    display: flex;
+    align-items: center;
+}
 
 .abouttitle {
     color: #02B79C;
@@ -1127,6 +1131,15 @@ textarea {
         font-size: 7rem;
     }
     .top-left {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .about-maincontainer {
+        width: 50rem;
+    }
+    .clients__group {
         font-size: 3rem;
     }
 }
