@@ -232,6 +232,7 @@ svg:hover {
     /* border: 1px solid white; */
     width: 100%;
     min-height: 50vh;
+    padding: 3rem 0px;
     position: relative;
     background-color: #000B14;
 }
@@ -242,7 +243,7 @@ svg:hover {
     width: 70rem;
     gap: 1rem;
     margin-right: 17%;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
 }
 
 .rightabout {
@@ -331,16 +332,19 @@ svg:hover {
     background-color: white;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;;
     gap: 5rem;
     position: relative;
+    /* border: 1px solid blue; */
 }
 
-.arrowdowncircle {
+/* .arrowdowncircle {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    /* border: 1px solid red; */
-}
+    border: 1px solid red;
+} */
 .arrow2 {
     border: solid #000B14;
     border-width: 0 8px 8px 0;
@@ -353,8 +357,10 @@ svg:hover {
 }
 
 .circle  {
-    position: relative;
-    transform: translate(0%, -50%);
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: #02B79C;
     width: 7rem;
     height: 7rem;
@@ -378,10 +384,11 @@ svg:hover {
 .projects-maincontainer {
     display: flex;
     align-items: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    /* justify-content: center; */
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
     /* margin-left: 17%; */
     /* border: 1px solid red; */
     gap: 4rem;
@@ -396,6 +403,7 @@ svg:hover {
     font-size: 7rem;
     font-family: 'Inter', sans-serif;
     font-weight: bold;
+    /* margin-top: 15rem; */
     /* border: 1px solid white; */
 }
 
@@ -1142,11 +1150,31 @@ textarea {
     .clients__group {
         font-size: 3rem;
     }
+   
 }
 
 @media only screen and (max-width: 1024px){
    
+    .projects-maincontainer {
+     flex-direction: column;
+     margin: 7rem 0px;
+   }
+   .projectright {
+    margin-top: -3rem;
+   }
+   .slideshow-container {
+    grid-template-columns:  50rem;
+   }
+   .projecttitle {
+    writing-mode: horizontal-tb;
+    transform: rotate(0deg);
+   }
+   .arrowcontainer3 {
+    display: none;
+   }
+   
 }
+
 
 @media only screen and (max-width: 768px){
 
