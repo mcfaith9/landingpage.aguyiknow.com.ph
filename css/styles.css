@@ -1070,7 +1070,8 @@ textarea {
 
 /* for desktop */
 @media only screen and (max-width: 1440px){
-    .tf:first-of-type .tf-right {
+    .tf:first-of-type 
+    .tf-right {
         width: 25rem;
     }
 
@@ -1080,13 +1081,43 @@ textarea {
 }
 /* for laptop */
 @media only screen and (max-width: 1024px){
+    html {
 
+    }
 }
 /* for tablet */
 @media only screen and (max-width: 768px){
 
 }
 /* for mobile */
-@media only screen and (max-width: 414px){
-
+@media only screen and (max-width: 414px) {
+    .navcontainer {
+        width: 100vh;
+    }
+    .navlist {
+        display: flex;
+        width: 75%;
+        padding-bottom: 3rem;
+        white-space: nowrap;
+    }
+    .home-container {
+        width: 100vh;
+    }
+    .title {
+        width: 550px;
+    }
+    .description-container{
+        text-align: center;
+        font-size: 12px;
+    }
+    .about-outercontainer {
+        width: 100vh;
+    }
+    .dotscontainer2 {
+        z-index: -1;
+    }
+    .circle {
+        position: absolute;
+        right: 100px;
+}
 }
