@@ -1068,7 +1068,7 @@ textarea {
 
 /* RESPONSIVE */
 
-/* for desktop */
+
 @media only screen and (max-width: 1440px){
     .tf:first-of-type 
     .tf-right {
@@ -1079,17 +1079,17 @@ textarea {
         grid-template-columns: auto 1fr 2fr;
     }
 }
-/* for laptop */
+
 @media only screen and (max-width: 1024px){
     html {
 
     }
 }
-/* for tablet */
+
 @media only screen and (max-width: 768px){
 
 }
-/* for mobile */
+
 @media only screen and (max-width: 414px) {
     .navcontainer {
         width: 100vh;
