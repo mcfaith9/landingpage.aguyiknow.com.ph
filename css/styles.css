@@ -903,7 +903,6 @@ textarea {
     display: flex;
     flex-direction: column;
     width: 80%;
-
     gap: 4rem;
 }
 
@@ -1008,9 +1007,18 @@ textarea {
     font-weight: 100;
     font-size: 1.2rem;
     line-height: 2.5rem;
-    margin-left: 1.5rem;
+    margin-left: 1.5rem;    
 }
-
+.copyright-text{
+    background-color: #000B14;
+    padding: 25px 0;
+    text-align: center;
+  }
+  .copyright-text p {
+    font-size: 14px;
+    color: #878787;
+    justify-content: center;
+  }
 /* keyframes start */
 @keyframes text_reveal {
     100% {
@@ -1168,3 +1176,8 @@ textarea {
         flex-direction: column;
     }
 }
+/* @media (max-width: 800px) {
+    html, body {
+    overflow-x: hidden;
+    }
+  } */
