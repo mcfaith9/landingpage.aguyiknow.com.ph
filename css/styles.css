@@ -461,6 +461,10 @@ svg:hover {
     position:relative;
 }
 
+.sld-left img{
+    width: 60rem;
+}
+
 .sld-btns {
     position: absolute;
     top: 50%;
@@ -835,15 +839,13 @@ svg:hover {
 }
 .bot-left {
     color: white;
-    font-size: 4.5rem;
+    font-size: 8.5rem;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     letter-spacing: 6px;
 
 }
-.contactleft p:last-of-type {
-    font-size: 8.5rem;
-}
+
 
 form {
     display: flex;
@@ -1080,10 +1082,49 @@ textarea {
     }
 }
 
-@media only screen and (max-width: 1024px){
-    html {
-
+@media only screen and (max-width: 1280px){
+    .title {
+        width: 700px;
     }
+    .subtitle p {
+        font-size: 2.2rem;
+    }
+    .about-maincontainer {
+        width: 60rem;
+    }
+    .socialcontainer svg {
+        width:30px;
+        height:30px;
+    }
+    .dotscontainer, .dotscontainer2, .dotscontainer4, .dotscontainer5, .dotscontainer6 {
+        gap: 2rem;
+    }
+    .dotscontainer3 {
+        display: none;
+    }
+    .sld-left img{
+        width: 50rem;
+    }
+    .slideshow-container {
+        grid-template-columns: 50rem 30rem;
+    }
+    .service-content {
+        grid-template-columns: 1fr;
+        margin: 0px 20%;
+    }
+    .contactscontainer {
+        gap: 2rem;
+    }
+    .bot-left {
+        font-size: 7rem;
+    }
+    .top-left {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+   
 }
 
 @media only screen and (max-width: 768px){
@@ -1091,7 +1132,7 @@ textarea {
 }
 
 @media only screen and (max-width: 414px) {
-    .navcontainer {
+    /* .navcontainer {
         width: 100vh;
     }
     .navlist {
@@ -1122,5 +1163,8 @@ textarea {
     }
     .clients__group {
         font-size: 1rem;
+    } */
+    .projects-maincontainer {
+        flex-direction: column;
     }
 }
