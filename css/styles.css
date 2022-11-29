@@ -1119,5 +1119,8 @@ textarea {
     .circle {
         position: absolute;
         right: 100px;
-}
+    }
+    .clients__group {
+        font-size: 1rem;
+    }
 }
