@@ -852,8 +852,9 @@ svg:hover {
 
 .activities-collage img {
     height: 30rem;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 40rem;
+    object-fit: cover;
 }
 
 .dotscontainer4 {
