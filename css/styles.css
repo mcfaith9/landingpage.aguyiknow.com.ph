@@ -847,7 +847,7 @@ svg:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-    margin-bottom: 10rem;;
+    margin-bottom: 10rem;
 }
 
 .activities-collage img {
@@ -855,6 +855,7 @@ svg:hover {
     /* border: 1px solid black; */
     width: 40rem;
     object-fit: cover;
+    
 }
 
 .dotscontainer4 {
@@ -1214,6 +1215,9 @@ textarea {
     .topfooter {
         grid-template-columns: auto 1fr 2fr;
     }
+    .activities-collage {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media only screen and (max-width: 1280px){
@@ -1263,6 +1267,11 @@ textarea {
     }
     .clients__group {
         font-size: 3rem;
+    }
+
+    .activities-collage {
+        grid-template-columns: 1fr;
+        
     }
    
 }
