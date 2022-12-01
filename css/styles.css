@@ -643,7 +643,7 @@ svg:hover {
 }
 
 .gamepic:hover {
-    transform: scale(1.07);
+    transform: scale(1.04);
 }
 
 .gamepic:active {
@@ -805,15 +805,6 @@ svg:hover {
     background-color: #000B14;
 }
 
-.dotscontainer4 {
-    
-    /* right: 50%;
-    transform: translate(50%, 0%); */
-    margin-bottom: 1.25rem;
-    display: grid;
-    grid-template-columns: repeat(10, 1rem);
-    gap: 2.5rem;
-}
 
 .dotscontainer5 {
     /* position: absolute;
@@ -830,17 +821,17 @@ svg:hover {
     width: 100%;
     min-height: 100vh;
     background-color: white;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 70%;
     align-items: center;
+    justify-content: center;
     position: relative;
-    gap: 10rem;
+    gap: 2rem;
 }
   .activities-maincontainer {
     display: flex;
     align-items: center;
-    justify-content: left;
-    width: 65%;
+    /* width: 65%; */
     gap: 2rem;
     margin-top: 8rem;
 }
@@ -852,6 +843,28 @@ svg:hover {
     font-weight: bold;
 }
 
+.activities-collage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-bottom: 10rem;;
+}
+
+.activities-collage img {
+    height: 30rem;
+    border: 1px solid black;
+}
+
+.dotscontainer4 {
+
+    /* left: 50%; */
+    /* transform: translate(50%, 0%); */
+    margin-bottom: 1.25rem;
+    display: grid;
+    grid-template-columns: repeat(10, 1rem);
+    gap: 2.5rem;
+    justify-content: center;
+}
 
 .arrowcontainer4 {
     display: flex;
