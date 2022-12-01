@@ -587,28 +587,28 @@ svg:hover {
 }
 /* Gamification start */
 .gamification-outercontainer {
-    width: 100%;
-    min-height: 100vh;
-    background-color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    position: relative;
-    gap: 10rem;
+    align-items: center; 
+    height: 100vh;
+    width: 100%;
+    background-color: #ffffff;
 }
 .gamification-maincontainer {
     display: flex;
     flex-direction: column;
-    /* margin-top: 20px; */
-    /* height: 100vh;
-    width: 100%;
-    background-color: #ffffff; */
+    align-items: center;
+    gap: 4rem;
 }
-.arrowcontainer5 {
+
+.title-and-arrows {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 4rem;
 }
+
 .gamificationtitle {
     color: #000B14;
     font-size: 7rem;
@@ -617,11 +617,10 @@ svg:hover {
 }
 .arrowcontainer-left5 {
     display: flex;
-    justify-content: right;
     gap: .5rem;
-    margin-right: 2rem;
+    /* margin-right: 2rem; */
 }
-.arrow5 {
+.arrow3 {
     border: solid #000B14;
     border-width: 0 6px 6px 0;
     padding: 8px;
@@ -629,11 +628,11 @@ svg:hover {
 .arrowcontainer-right5 {
     display: flex;
     gap: .5rem;
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
 }
 .gamificationcaption    {
     color: #000B14;
-    font-size: 1.7rem;
+    font-size: 2.3rem;
     font-family: 'Inter', sans-serif;
 }
 
@@ -670,11 +669,7 @@ svg:hover {
     gap: .5rem;
 }
 
-.arrow4 {
-    border: solid #000B14;
-    border-width: 0 6px 6px 0;
-    padding: 7px;
-  }
+
 
 .right {
     transform: rotate(315deg);
