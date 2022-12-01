@@ -624,12 +624,17 @@ svg:hover {
 .arrow5 {
     border: solid #000B14;
     border-width: 0 6px 6px 0;
-    padding: 7px;
+    padding: 8px;
   }
 .arrowcontainer-right5 {
     display: flex;
     gap: .5rem;
     margin-left: 2rem;
+}
+.gamificationcaption    {
+    color: #000B14;
+    font-size: 1.7rem;
+    font-family: 'Inter', sans-serif;
 }
 
 /* Gamification end *
