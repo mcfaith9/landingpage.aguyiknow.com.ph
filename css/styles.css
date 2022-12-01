@@ -593,7 +593,6 @@ svg:hover {
     margin-top: 20px;
 }
 .gamificationtitle {
-    border: 1px solid black;
     color: #000B14;
     font-size: 7rem;
     font-family: 'Inter', sans-serif;
@@ -603,6 +602,7 @@ svg:hover {
     display: flex;
     justify-content: right;
     gap: .5rem;
+    margin-right: 2rem;
 }
 .arrow5 {
     border: solid #000B14;
@@ -612,6 +612,7 @@ svg:hover {
 .arrowcontainer-right5 {
     display: flex;
     gap: .5rem;
+    margin-left: 2rem;
 }
 
 /* Gamification end *
