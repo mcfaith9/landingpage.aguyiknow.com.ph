@@ -589,8 +589,9 @@ svg:hover {
 .gamification-outercontainer {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     background-color: #ffffff;
 }
@@ -598,7 +599,7 @@ svg:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 4rem;
+    gap: 5rem;
 }
 
 .title-and-arrows {
@@ -636,6 +637,18 @@ svg:hover {
     font-size: 2.3rem;
     font-family: 'Inter', sans-serif;
 }
+.gamepic {
+    width: 80rem;
+    transition: all .25s;
+}
+
+.gamepic:hover {
+    transform: scale(1.07);
+}
+
+.gamepic:active {
+    opacity: .6;
+}
 
 /* Gamification end *
  /* Services */
@@ -645,6 +658,7 @@ svg:hover {
     background-color: white;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     position: relative;
     gap: 10rem;
