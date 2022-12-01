@@ -585,6 +585,36 @@ svg:hover {
     background-color: #000B14;
     animation: dots 1.5s;
 }
+/* Gamification start */
+.gamification-maincontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.gamificationtitle {
+    border: 1px solid black;
+    color: #000B14;
+    font-size: 7rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+.arrowcontainer-left5 {
+    display: flex;
+    justify-content: right;
+    gap: .5rem;
+}
+.arrow5 {
+    border: solid #000B14;
+    border-width: 0 6px 6px 0;
+    padding: 7px;
+  }
+.arrowcontainer-right5 {
+    display: flex;
+    gap: .5rem;
+}
+
+/* Gamification end *
  /* Services */
  .services-outercontainer {
     width: 100%;
