@@ -786,6 +786,9 @@ svg:hover {
     text-decoration: none;
     color: #000B14;
 }
+.getright a:hover, .getleft a:hover{
+    color: #02B79C;
+}
 .getright {
     display: flex;
     flex-direction: column;
