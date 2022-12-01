@@ -590,7 +590,10 @@ svg:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    height: 100vh;
+    width: 100%;
+    background-color: #ffffff;
 }
 .gamificationtitle {
     color: #000B14;
