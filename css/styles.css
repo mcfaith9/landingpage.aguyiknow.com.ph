@@ -1013,6 +1013,11 @@ textarea {
 .footerbg {
     background-color: #001e36;
     width: 100%;
+    /* padding: 3rem 0rem 3rem; */
+    /* display: flex; */
+    /* justify-content: center; */
+}
+.mainfooter {
     padding: 3rem 0rem 3rem;
     display: flex;
     justify-content: center;
