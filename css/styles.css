@@ -231,7 +231,7 @@ svg:hover {
     align-items: center;
     /* border: 1px solid white; */
     width: 100%;
-    min-height: 80vh;
+    min-height: 50vh;
     padding: 3rem 0px;
     position: relative;
     background-color: #000B14;
@@ -586,7 +586,8 @@ svg:hover {
     animation: dots 1.5s;
 }
 /* Gamification start */
-.gamification-outercontainer {
+
+/* .gamification-outercontainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -606,12 +607,12 @@ svg:hover {
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
     gap: 4rem;
     margin-top: -3rem;
-}
+} */
 
-.gamificationtitle {
+/* .gamificationtitle {
     color: #000B14;
     font-size: 7rem;
     font-family: 'Inter', sans-serif;
@@ -620,9 +621,9 @@ svg:hover {
 .arrowcontainer-left5 {
     display: flex;
     gap: .5rem;
-    /* margin-right: 2rem; */
-}
-.arrow3 {
+    margin-right: 2rem;
+} */
+/* .arrow3 {
     border: solid #000B14;
     border-width: 0 6px 6px 0;
     padding: 8px;
@@ -630,17 +631,14 @@ svg:hover {
 .arrowcontainer-right5 {
     display: flex;
     gap: .5rem;
-    /* margin-left: 2rem; */
-}
-.gamificationcaption    {
+    margin-left: 2rem;
+} */
+/* .gamificationcaption    {
     color: #001e36;
     font-size: 2.3rem;
     font-family: 'Inter', sans-serif;
 }
-.gamepic {
-    width: 80rem;
-    transition: all .25s;
-}
+
 
 .gamepic:hover {
     transform: scale(1.04);
@@ -648,8 +646,41 @@ svg:hover {
 
 .gamepic:active {
     opacity: .6;
+} */
+.gamification-outercontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #ffffff;
 }
-
+.gamification-maincontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrowcontainer-gamification {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: -3rem;
+}
+.gamificationtitle {
+    display: flex;
+    writing-mode: vertical-rl;
+    color: #000B14;
+    font-size: 7rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+.gamepic {
+    width: 80rem;
+    transition: all .25s;
+}
 /* Gamification end *
  /* Services */
  .services-outercontainer {
