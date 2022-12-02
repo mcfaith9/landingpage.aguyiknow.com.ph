@@ -660,15 +660,42 @@ svg:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 15px;
+}
+.gamepic {
+    width: 80rem;
+    transition: all .25s;
 }
 .arrowcontainer-gamification {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    gap: 4rem;
-    margin-top: -3rem;
+    align-items: flex-start;
+    gap: .5rem;
+    /* margin-top: -3rem; */
 }
+.up {
+    transform: rotate(45deg);
+    animation: arrow-load 2s infinite;
+  }
+  .up:nth-child(1) {
+    left: 25px;
+    animation-delay: 0.2s;
+  }
+  .up:nth-child(2) {
+    animation-delay: 0.4s;
+  }
+  .up:nth-child(3) {
+    animation-delay: 0.6s;
+  }
+  .up:nth-child(4) {
+    animation-delay: 0.8s;
+  }
+  .up:nth-child(5) {
+    right: 25px;
+    animation-delay: .99s;
+  }
+
 .gamificationtitle {
     display: flex;
     writing-mode: vertical-rl;
@@ -677,10 +704,7 @@ svg:hover {
     font-family: 'Inter', sans-serif;
     font-weight: bold;
 }
-.gamepic {
-    width: 80rem;
-    transition: all .25s;
-}
+
 /* Gamification end *
  /* Services */
  .services-outercontainer {
