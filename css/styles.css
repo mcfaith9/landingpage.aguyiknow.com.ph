@@ -167,7 +167,7 @@ svg:hover {
 .dotscontainer {
     position: absolute;
     top: 25%;
-    right: 15rem;
+    right: 5rem;
     transform: translate(-0%, -50%);
     display: grid;
     grid-template-columns: repeat(6, 1rem);
@@ -187,7 +187,7 @@ svg:hover {
 .description-container {
     position: absolute;
     bottom: 7%;
-    left: 29%;
+    left: 26%;
     /* transform: translate(-0%, -50%); */
     /* border: 1px solid white; */
     width: 80rem;
@@ -195,12 +195,12 @@ svg:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .description {
     color: white;
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-family: 'Inter' sans-serif;
     font-weight: 300;
     animation: slide-left 1.5s;
@@ -230,14 +230,15 @@ svg:hover {
 } */
 .dotscontainer-left {
     position: absolute;
-    bottom: -15rem;
-    left: 18rem;
-    transform: translate(-0%, -50%);
+    bottom: 1.5rem;
+    left: 5rem;
+    transform: translate(0%, 0%);
     display: grid;
     grid-template-columns: repeat(6, 1rem);
     gap: 2.5rem;
-    animation: dots 2s;
+    /* animation: dots 2s; */
 }
+
 .dots-l {
     width: .5rem;
     height: .5rem;
