@@ -320,7 +320,6 @@ svg:hover {
     bottom: 1.25rem;
     left: 15rem;
     transform: translate(0%, 0%);
-    z-index: 99;
     display: grid;
     grid-template-columns: repeat(8, 1rem);
     gap: 2.5rem;
@@ -331,7 +330,6 @@ svg:hover {
     top: 1.25rem;
     left: 15rem;
     transform: translate(0%, 0%);
-    z-index: 99;
     display: grid;
     grid-template-columns: repeat(8, 1rem);
     gap: 2.5rem;
