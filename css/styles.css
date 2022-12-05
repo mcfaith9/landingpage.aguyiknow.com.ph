@@ -782,10 +782,10 @@ svg:hover {
 }
 .service-image {
     /* border: 1px solid white; */
-    height: 160px;
-    width: 160px;
+    height: 120px;
+    width: 120px;
     object-fit: cover;
-    /* transition: height 0.15s, width 0.15s; */
+    transition: height 0.15s, width 0.15s;
 }
 
 .get {
@@ -1034,12 +1034,15 @@ textarea {
 }
 
 .sendbtn {
+    font-family: Helvetica;
+    /* font-weight: bold; */
     cursor: pointer;
     padding: 10px 20px;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     background-color: #000B14;
     color: white;
     transition: background-color .15s;
+    letter-spacing: 1px;
 }
 
 .sendbtn:hover {
