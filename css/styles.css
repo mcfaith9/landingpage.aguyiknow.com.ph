@@ -596,67 +596,6 @@ svg:hover {
     animation: dots 1.5s;
 }
 /* Gamification start */
-
-/* .gamification-outercontainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    width: 100%;
-    background-color: #ffffff;
-}
-.gamification-maincontainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 5rem;
-}
-
-.title-and-arrows {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 4rem;
-    margin-top: -3rem;
-} */
-
-/* .gamificationtitle {
-    color: #000B14;
-    font-size: 7rem;
-    font-family: 'Inter', sans-serif;
-    font-weight: bold;
-}
-.arrowcontainer-left5 {
-    display: flex;
-    gap: .5rem;
-    margin-right: 2rem;
-} */
-/* .arrow3 {
-    border: solid #000B14;
-    border-width: 0 6px 6px 0;
-    padding: 8px;
-  }
-.arrowcontainer-right5 {
-    display: flex;
-    gap: .5rem;
-    margin-left: 2rem;
-} */
-/* .gamificationcaption    {
-    color: #001e36;
-    font-size: 2.3rem;
-    font-family: 'Inter', sans-serif;
-}
-
-
-.gamepic:hover {
-    transform: scale(1.04);
-}
-
-.gamepic:active {
-    opacity: .6;
-} */
 .gamification-outercontainer {
     display: flex;
     flex-direction: column;
