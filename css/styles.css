@@ -267,7 +267,7 @@ svg:hover {
 /* ABOUT US */
 .about-outercontainer {
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
     /* border: 1px solid white; */
     width: 100%;
@@ -280,15 +280,22 @@ svg:hover {
 .about-maincontainer {
     display: flex;
     /* border: 1px solid white; */
-    width: 70rem;
+    
+    /* width: 70rem; */
     gap: 1rem;
-    margin-right: 17%;
+    /* margin-right: 17%; */
     /* margin-top: 2rem; */
+}
+
+.about-clipart {
+    width: 35rem;
+    margin-right: 5rem;
 }
 
 .rightabout {
     display: flex;
     flex-direction: column;
+    width: 70rem;
     /* align-items: right; */
     justify-content: center;
     /* border: 1px solid white; */
