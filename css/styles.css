@@ -1030,9 +1030,12 @@ input {
 textarea {
     border: 3px solid #02B79C;
     /* border-radius: 10px; */
-    padding: 15px;
+    padding: 10px;
 }
-
+::placeholder {
+    font-family: Helvetica;
+    font-size: 1.8rem;
+}
 .sendbtn {
     font-family: Helvetica;
     /* font-weight: bold; */
