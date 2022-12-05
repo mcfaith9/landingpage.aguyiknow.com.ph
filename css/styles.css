@@ -978,7 +978,12 @@ svg:hover {
     overflow: hidden;
     width: 100%;
 }
-
+.clientstitle {
+    color: #fff;
+    font-size: 7rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
 .clients__group {
     display: flex;
     color: #fff;
