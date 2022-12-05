@@ -782,10 +782,10 @@ svg:hover {
 }
 .service-image {
     /* border: 1px solid white; */
-    height: 120px;
-    width: 120px;
+    height: 160px;
+    width: 160px;
     object-fit: cover;
-    transition: height 0.15s, width 0.15s;
+    /* transition: height 0.15s, width 0.15s; */
 }
 
 .get {
