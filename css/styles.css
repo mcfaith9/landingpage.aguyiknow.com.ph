@@ -167,13 +167,14 @@ svg:hover {
 .dotscontainer {
     position: absolute;
     top: 25%;
-    right: 3rem;
+    right: 15rem;
     transform: translate(-0%, -50%);
     display: grid;
     grid-template-columns: repeat(6, 1rem);
     gap: 2.5rem;
     animation: dots 2s;
 }
+
 .dots {
     width: .5rem;
     height: .5rem;
@@ -186,21 +187,25 @@ svg:hover {
 .description-container {
     position: absolute;
     bottom: 7%;
-    left: 15%;
+    left: 29%;
     /* transform: translate(-0%, -50%); */
     /* border: 1px solid white; */
-    width: 50rem;
+    width: 80rem;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     gap: 2rem;
 }
 
 .description {
     color: white;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: 'Inter' sans-serif;
     font-weight: 300;
     animation: slide-left 1.5s;
+    text-align: center;
+    /* white-space: nowrap; */
 }
 .line {
     display: flex;
@@ -210,19 +215,37 @@ svg:hover {
     /* border: 1px solid white; */
 }
 
-.slide-right {
-    width: 50rem;
+/* .slide-right {
+    width: 100rem;
     height: .2rem;
     background-color: #02B79C;
     animation: 1.5s slide-right;
-}
+} */
 
-.slide-left {
-    width: 45rem;
+/* .slide-left {
+    width: 90rem;
     height: .2rem;
     background-color: #02B79C;
     animation: 1.5s slide-left;
+} */
+.dotscontainer-left {
+    position: absolute;
+    bottom: -15rem;
+    left: 18rem;
+    transform: translate(-0%, -50%);
+    display: grid;
+    grid-template-columns: repeat(6, 1rem);
+    gap: 2.5rem;
+    animation: dots 2s;
 }
+.dots-l {
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    background-color: #02B79C;
+    animation: dots 1.5s;
+} 
+
 /* ABOUT US */
 .about-outercontainer {
     display: flex;
