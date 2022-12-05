@@ -113,7 +113,7 @@ html {
 
 .socialcontainer {
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 4rem;
     transform: translate(-0%, -50%);
     display: flex;
@@ -124,6 +124,7 @@ html {
     /* margin-left: 3rem; */
 
 }
+
 .socialcontainer a{
     animation: slide-left 1.5s;
 }
@@ -167,11 +168,24 @@ svg:hover {
 .dotscontainer {
     position: absolute;
     top: 25%;
-    right: 5rem;
+    right: 3rem;
     transform: translate(-0%, -50%);
     display: grid;
     grid-template-columns: repeat(6, 1rem);
-    gap: 2.5rem;
+    row-gap: 3rem;
+    column-gap: 2.5rem;
+    animation: dots 2s;
+}
+
+.dotscontainer1 {
+    position: absolute;
+    bottom: 25%;
+    left: 3rem;
+    transform: translate(0%, 50%);
+    display: grid;
+    grid-template-columns: repeat(6, 1rem);
+    row-gap: 3rem;
+    column-gap: 2.5rem;
     animation: dots 2s;
 }
 
@@ -185,60 +199,62 @@ svg:hover {
 
 
 .description-container {
-    position: absolute;
-    bottom: 7%;
-    left: 26%;
+    /* position: absolute; */
+    /* bottom: 7%; */
+    /* left: 15%; */
     /* transform: translate(-0%, -50%); */
     /* border: 1px solid white; */
-    width: 80rem;
+    /* width: 50rem; */
+    margin-top: 1rem;
+    padding: 0px 10rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 3rem;
+    text-align: center;
+    gap: 2rem;
 }
 
 .description {
     color: white;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-family: 'Inter' sans-serif;
     font-weight: 300;
     animation: slide-left 1.5s;
     text-align: center;
     /* white-space: nowrap; */
 }
-.line {
+/* .line {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem; 
-    /* border: 1px solid white; */
-}
+    /* border: 1px solid white; 
+} */
 
 /* .slide-right {
-    width: 100rem;
+    width: 100%;
     height: .2rem;
     background-color: #02B79C;
     animation: 1.5s slide-right;
 } */
 
 /* .slide-left {
-    width: 90rem;
+    width: 90%;
     height: .2rem;
     background-color: #02B79C;
     animation: 1.5s slide-left;
 } */
 .dotscontainer-left {
     position: absolute;
-    bottom: 1.5rem;
-    left: 5rem;
-    transform: translate(0%, 0%);
+    bottom: -15rem;
+    left: 18rem;
+    transform: translate(-0%, -50%);
     display: grid;
     grid-template-columns: repeat(6, 1rem);
     gap: 2.5rem;
-    /* animation: dots 2s; */
+    animation: dots 2s;
 }
-
 .dots-l {
     width: .5rem;
     height: .5rem;
