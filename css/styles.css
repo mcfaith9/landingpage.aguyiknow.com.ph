@@ -205,7 +205,7 @@ svg:hover {
     /* transform: translate(-0%, -50%); */
     /* border: 1px solid white; */
     /* width: 50rem; */
-    margin-top: 1rem;
+    margin-top: 3rem;
     padding: 0px 10rem;
     display: flex;
     align-items: center;
@@ -222,6 +222,7 @@ svg:hover {
     font-weight: 300;
     animation: slide-left 1.5s;
     text-align: center;
+    line-height: 2.4rem;
     /* white-space: nowrap; */
 }
 /* .line {
