@@ -315,13 +315,25 @@ svg:hover {
   }
 
 
- .dotscontainer2 {
+ .dotscontainer1-2 {
     position: absolute;
-    bottom: 3rem;
+    bottom: 1.25rem;
     left: 15rem;
-    /* transform: translate(0%, 0%); */
+    transform: translate(0%, 0%);
+    z-index: 99;
     display: grid;
-    grid-template-columns: repeat(6, 1rem);
+    grid-template-columns: repeat(8, 1rem);
+    gap: 2.5rem;
+}
+
+.dotscontainer2-2 {
+    position: absolute;
+    top: 1.25rem;
+    left: 15rem;
+    transform: translate(0%, 0%);
+    z-index: 99;
+    display: grid;
+    grid-template-columns: repeat(8, 1rem);
     gap: 2.5rem;
 }
 
