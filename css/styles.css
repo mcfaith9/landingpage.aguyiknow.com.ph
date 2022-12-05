@@ -170,7 +170,7 @@ svg:hover {
     right: 3rem;
     transform: translate(-0%, -50%);
     display: grid;
-    grid-template-columns: repeat(10, 1rem);
+    grid-template-columns: repeat(6, 1rem);
     gap: 2.5rem;
     animation: dots 2s;
 }
