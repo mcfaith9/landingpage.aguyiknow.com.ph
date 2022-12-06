@@ -424,6 +424,7 @@ svg:hover {
 
 .projects-maincontainer {
     display: flex;
+    flex-direction: row;
     align-items: center;
     /* justify-content: center; */
     /* position: absolute; */
@@ -460,15 +461,15 @@ svg:hover {
     gap: .5rem;
 }
 
-.arrow3 {
+/* .arrow3 {
     border: solid #000B14;
     border-width: 0 6px 6px 0;
     padding: 7px;
-    /* width: 0; */
-    /* position: relative;
+    width: 0;
+    position: relative;
     left:58rem;
-    top:1rem; */
-}
+    top:1rem;
+} */
 .down {
     transform: rotate(45deg);
     animation: arrow-load 2s infinite;
@@ -726,10 +727,18 @@ svg:hover {
 
 .separator-container2 {
     position: absolute;
-    top: -20px;
+    top: -15px;
     overflow: hidden;
     width: 100%;
     /* transform: rotateY(180deg); */
+}
+
+.separator-container3 {
+    position: absolute;
+    bottom: -15px;
+    overflow: hidden;
+    width: 100%;
+    transform: rotate(180deg);
 }
 
 
