@@ -288,8 +288,8 @@ svg:hover {
 }
 
 .about-clipart {
-    width: 35rem;
-    margin-right: 5rem;
+    width: 20rem;
+    margin-right: 10rem;
 }
 
 .rightabout {
@@ -363,21 +363,21 @@ svg:hover {
 
   .separator-container {
     position:absolute;
-    bottom: -1px;
-    left: -1px;
-    right: -1px;
+    bottom: -15px;
     /* left: -1px; */
     /* right: -1px; */
     /* left: 50%; */
     /* max-height: 180px; */
     width: 100%;
+    overflow: hidden;
     /* transform: translate(-50%, -100%); */
     transform: rotate(180deg);
     /* border: 1px solid red; */
 }
 
 .separator1 {
-    width: 100%
+    width: 100%;
+    transform: scale(1.01);
 }
 
 
@@ -611,12 +611,13 @@ svg:hover {
 
 .dotscontainer3 {
     position: absolute;
-    bottom: 3rem;
-    right: 15rem;
+    top: 5rem;
+    left: 2rem;
     /* transform: translate(-0%, -50%); */
     display: grid;
     grid-template-columns: repeat(6, 1rem);
-    gap: 2rem;
+    row-gap: 2.5rem;
+    column-gap: 2rem;
 }
 
 .dots2 {
