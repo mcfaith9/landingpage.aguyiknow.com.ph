@@ -404,14 +404,14 @@ svg:hover {
     align-items: flex-start;
     border: 1px solid red;
 } */
-/* .arrow2 {
+ .arrow2 {
     border: solid #000B14;
-    border-width: 0 8px 8px 0;
-    padding: 10px;
+    border-width: 0 6px 6px 0;
+    padding: 7px;
     
-}
+} 
 
-.down1 {
+/* .down1 {
     transform: rotate(45deg);
 }
 
@@ -420,7 +420,7 @@ svg:hover {
     bottom: 50%;
     left: 50%;
     transform: translate(-50%, 27%);
-} */
+} */ 
 
 .projects-maincontainer {
     display: flex;
