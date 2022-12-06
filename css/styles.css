@@ -652,6 +652,17 @@ svg:hover {
 .gamepic:hover {
     transform: scale(1.04);
 }
+.dotscontainer7 {
+    position: absolute;
+    bottom: -20rem;
+    right: 5rem;
+    transform: translate(-0%, -50%);
+    display: grid;
+    grid-template-columns: repeat(6, 1rem);
+    row-gap: 3rem;
+    column-gap: 2.5rem;
+    animation: dots 2s;
+}
 
 .gamepic:active {
     opacity: .6;
