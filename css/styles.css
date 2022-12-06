@@ -793,7 +793,8 @@ svg:hover {
     grid-template-columns: repeat(auto-fit,minmax(300px,auto));
     align-items: stretch;
     text-align: center;
-    gap: 2rem;
+    gap: 5rem;
+    margin-top: 5rem;
 }
 .box{
     font-family: 'Roboto Condensed', sans-serif;
@@ -801,7 +802,7 @@ svg:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-	padding: 75px;
+	padding: 60px;
 	background: white;
 	border-top: 5px solid transparent;
 	border-radius: 2rem;
@@ -823,8 +824,10 @@ svg:hover {
 	line-height: 30px;
 }
 .box:hover{
-	transform: scale(1.01) translateY(-5px);
+	transform: scale(1.16) translateY(-5px);
 	border-top: 5px solid #02B79C;
+    /* padding-left: 60px;
+    padding-right: 60px; */
 }
 .box:hover h3{
 	color: #000B14;
