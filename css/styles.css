@@ -361,26 +361,25 @@ svg:hover {
     right: 25px;
   }
 
-
- .dotscontainer1-2 {
-    position: absolute;
-    bottom: 1.25rem;
-    left: 15rem;
-    transform: translate(0%, 0%);
-    display: grid;
-    grid-template-columns: repeat(8, 1rem);
-    gap: 2.5rem;
+  .separator-container {
+    position:absolute;
+    bottom: -1px;
+    left: -1px;
+    right: -1px;
+    /* left: -1px; */
+    /* right: -1px; */
+    /* left: 50%; */
+    /* max-height: 180px; */
+    width: 100%;
+    /* transform: translate(-50%, -100%); */
+    transform: rotate(180deg);
+    /* border: 1px solid red; */
 }
 
-.dotscontainer2-2 {
-    position: absolute;
-    top: 1.25rem;
-    left: 15rem;
-    transform: translate(0%, 0%);
-    display: grid;
-    grid-template-columns: repeat(8, 1rem);
-    gap: 2.5rem;
+.separator1 {
+    width: 100%
 }
+
 
 /* PROJECTS */
 .projects-outercontainer {
@@ -396,13 +395,16 @@ svg:hover {
     /* border: 1px solid blue; */
 }
 
+
+
+
 /* .arrowdowncircle {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     border: 1px solid red;
 } */
-.arrow2 {
+/* .arrow2 {
     border: solid #000B14;
     border-width: 0 8px 8px 0;
     padding: 10px;
@@ -413,30 +415,12 @@ svg:hover {
     transform: rotate(45deg);
 }
 
-.circle  {
-    position: absolute;
-    top: 0%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #02B79C;
-    width: 7rem;
-    height: 7rem;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: padding .17s;
-}
-.circle:hover {
-    /* box-shadow: 0px 4px 4px #81ada7; */
-    padding: 1rem;
-}
 .arrowcontainer2 {
     position: absolute;
     bottom: 50%;
     left: 50%;
     transform: translate(-50%, 27%);
-}
+} */
 
 .projects-maincontainer {
     display: flex;
@@ -786,17 +770,17 @@ svg:hover {
     width: 70%;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,auto));
-    align-items: center;
+    align-items: stretch;
     text-align: center;
     gap: 2rem;
 }
 .box{
     font-family: 'Roboto Condensed', sans-serif;
-    min-height: 40rem;
+    /* min-height: 40rem; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-	padding: 85px;
+	padding: 75px;
 	background: #000B14;
 	border-top: 5px solid transparent;
 	border-radius: 0.5rem;
@@ -804,6 +788,7 @@ svg:hover {
 	cursor: pointer;
     position: relative;
 }
+
 .box h3{
     color: #02B79C;
 	font-size: 24px;
