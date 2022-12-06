@@ -272,7 +272,7 @@ svg:hover {
     /* border: 1px solid white; */
     width: 100%;
     min-height: 80vh;
-    padding: 0px 0px 3rem;
+    padding: 0px 0px 10rem;
     position: relative;
     background-color: #000B14;
 }
