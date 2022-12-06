@@ -272,7 +272,7 @@ svg:hover {
     /* border: 1px solid white; */
     width: 100%;
     min-height: 80vh;
-    padding: 3rem 0px;
+    padding: 0px 0px 3rem;
     position: relative;
     background-color: #000B14;
 }
@@ -363,7 +363,7 @@ svg:hover {
 
   .separator-container {
     position:absolute;
-    bottom: -15px;
+    bottom: -12px;
     /* left: -1px; */
     /* right: -1px; */
     /* left: 50%; */
