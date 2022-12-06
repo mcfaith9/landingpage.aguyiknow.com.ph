@@ -1084,19 +1084,21 @@ textarea {
     font-size: 1.8rem;
 }
 .sendbtn {
-    font-family: Helvetica;
+    /* font-family: Helvetica; */
     /* font-weight: bold; */
     cursor: pointer;
     padding: 10px 20px;
     font-size: 1.6rem;
     background-color: #000B14;
     color: white;
-    transition: background-color .15s;
+    transition: background-color .15s, color .15s;
     letter-spacing: 1px;
+    margin-top: 5px;
 }
 
 .sendbtn:hover {
     background-color: #02B79C;
+    color: #000B14;
 }
 
 .dotscontainer6 {
