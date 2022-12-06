@@ -1125,7 +1125,7 @@ textarea {
     padding: 10px 20px;
     font-size: 1.7rem;
     background-color: #000B14;
-    color: white;
+    color: #02B79C;
     transition: background-color .15s, color .15s;
     letter-spacing: 1px;
     margin-top: 5px;
@@ -1134,7 +1134,7 @@ textarea {
 
 .sendbtn:hover {
     background-color: #02B79C;
-    color: #000B14;
+    color: white;
 }
 
 .dotscontainer6 {
