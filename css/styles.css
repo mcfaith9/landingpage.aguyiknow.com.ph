@@ -503,7 +503,7 @@ svg:hover {
     box-sizing: border-box;
     /* border: 1px solid blue; */
     display: grid;
-    grid-template-columns: 60rem 30rem;
+    grid-template-columns: 60rem 25rem;
     gap: 2rem;
     padding: 1rem;
     /* box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.589); */
@@ -826,8 +826,6 @@ svg:hover {
 .box:hover{
 	transform: scale(1.16) translateY(-5px);
 	border-top: 5px solid #02B79C;
-    /* padding-left: 60px;
-    padding-right: 60px; */
 }
 .box:hover h3{
 	color: #000B14;
@@ -904,7 +902,7 @@ svg:hover {
     margin-top: 1.25rem;
     display: grid;
     grid-template-columns: repeat(10, 1rem);
-    gap: 2.5rem;
+    gap: 2rem;
 }
  /* ACTIVITIES */
  .activities-outercontainer {
@@ -959,7 +957,7 @@ svg:hover {
     margin-bottom: 1.25rem;
     display: grid;
     grid-template-columns: repeat(10, 1rem);
-    gap: 2.5rem;
+    gap: 2rem;
     justify-content: center;
 }
 
