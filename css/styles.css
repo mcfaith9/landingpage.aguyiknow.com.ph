@@ -1123,12 +1123,13 @@ textarea {
     /* font-weight: bold; */
     cursor: pointer;
     padding: 10px 20px;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     background-color: #000B14;
     color: white;
     transition: background-color .15s, color .15s;
     letter-spacing: 1px;
     margin-top: 5px;
+    width: 20%;
 }
 
 .sendbtn:hover {
