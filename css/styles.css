@@ -1461,9 +1461,6 @@ textarea {
 }
 
 @media only screen and (max-width: 1100px) {
-    /* .about-maincontainer {
-        width: 50rem;
-    } */
     .right-subtitle {
         font-size: 3rem;
     }
@@ -1483,6 +1480,77 @@ textarea {
     .abouttitle {
         transform: rotate(180deg);
         font-size: 7rem;
+    }
+    .arrowcontainer {
+        display: none;
+    }
+    .projects-maincontainer {
+        flex-direction: column;
+        margin: 7rem 0px;
+    }
+    .projectright {
+       margin-top: -3rem;
+    }
+    .slideshow-container {
+       grid-template-columns:  50rem;
+    }
+    .projecttitle {
+       writing-mode: horizontal-tb;
+       transform: rotate(0deg);
+    }
+    .arrowcontainer3 {
+       display: none;
+    }
+    .gamification-maincontainer {
+        flex-direction: column-reverse;
+    }
+    .gamificationtitle {
+        writing-mode: horizontal-tb;
+    }
+    .arrowcontainer-gamification {
+        display: none;
+    }
+    .gamepic {
+        width: 60rem;
+    }
+    .service-content {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        gap: 4rem;
+    }
+    .arrowcontainer4 {
+        display: none;
+    }
+    .box {
+        padding: 5rem;
+    }
+    .box:last-of-type {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .dotscontainer5, .dotscontainer4 {
+        gap: 1.5rem;
+    }
+    .clientstitle {
+        font-size: 5rem;
+    }
+    .logos {
+        grid-template-columns: repeat(3, 15rem);
+        column-gap: 10rem;
+    }
+    .companylogo-container img {
+        width: 15rem;
+    }
+    .activities-collage {
+        grid-template-columns: 1fr;
+    }
+    .contactscontainer {
+        flex-direction: column;
+    }
+    .dotscontainer6 {
+        row-gap: 2rem;
+        column-gap: 1.5rem;
+        grid-template-columns: repeat(6, 1rem);
     }
 }
 
@@ -1593,12 +1661,6 @@ textarea {
     
    
 }
-
-@media only screen and (max-width: 1024px){
-   
-   
-}
-
 
 @media only screen and (max-width: 768px){
 
