@@ -1371,6 +1371,37 @@ textarea {
 }
 
 @media only screen and (max-width: 1280px){
+    .about-outercontainer {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .right-subtitle {
+        font-size: 1rem;
+    }
+    .rightabout {
+        width: 600px;
+    }
+    .aboutdescription {
+        font-size: 1.5rem;
+    }
+    .about-maincontainer {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .projects-maincontainer {
+        margin-right: -100px;
+    }
+    .gamification-maincontainer {
+        margin-left: 30px;
+    }
+    .box {
+        padding: 20px;
+        width: 50%;
+    }
+    .service-content {
+        display: flex;
+    }
     .title {
         width: 700px;
     }
@@ -1378,7 +1409,7 @@ textarea {
         font-size: 2.2rem;
     }
     .about-maincontainer {
-        width: 60rem;
+        width: 100rem;
     }
     .socialcontainer svg {
         width:30px;
