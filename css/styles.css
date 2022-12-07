@@ -1490,7 +1490,32 @@ textarea {
 }
 
 @media only screen and (max-width: 1024px){
-   
+    .about-maincontainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .arrowcontainer {
+        display: none;
+    }
+    .about-clipart {
+        position: absolute;
+        right: 0;
+        bottom: 20px;
+    }
+    .leftabout {
+        position: absolute;
+        top: 10rem;
+    }
+    .abouttitle {
+        writing-mode: horizontal-tb;
+        text-align: center;
+        font-size: 7rem;
+    }
+    .right-subtitle {
+        font-size: 2.7rem;
+    }
     .projects-maincontainer {
      flex-direction: column;
      margin: 7rem 0px;
@@ -1508,7 +1533,30 @@ textarea {
    .arrowcontainer3 {
     display: none;
    }
-   
+   .gamification-outercontainer {
+    margin-top: 10px;
+   }
+   .gamification-maincontainer {
+    display: flex;
+    flex-direction: column;
+   }
+   .right-game {
+    position: absolute;
+    top: 8rem;
+   }
+   .arrowcontainer-gamification {
+    display: none;
+   }
+   .gamificationtitle p {
+    writing-mode: horizontal-tb;
+   }
+   .arrowcontainer4 {
+    display: none;
+   }
+   .activities-collage {
+    display: grid;
+    grid-template-columns: 1fr;
+   }
 }
 
 
