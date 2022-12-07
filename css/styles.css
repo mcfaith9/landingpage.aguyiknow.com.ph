@@ -1459,17 +1459,34 @@ textarea {
 
 @media only screen and (max-width: 1100px) {
     .about-maincontainer {
-        width: 50rem;
+        width: 100rem;
     }
     .clients__group {
         font-size: 3rem;
     }
 
     .activities-collage {
-        grid-template-columns: 1fr;
-        
+        grid-template-columns: 1fr 1fr;
     }
-   
+    .projects-maincontainer {
+        display: flex;
+        margin-left: -100px;
+    }
+    .dotscontainer2 {
+        display: grid;
+        /* grid-template-columns: repeat(6, 1rem); */
+        position: absolute;
+        top: -50px;
+    }
+    .dotscontainer3 {
+        display: grid;
+        /* grid-template-columns: repeat(6,1rem); */
+        position: absolute;
+        bottom: 50px;
+    }
+    .gamification-maincontainer {
+        margin-right: -80px;
+    }
 }
 
 @media only screen and (max-width: 1024px){
