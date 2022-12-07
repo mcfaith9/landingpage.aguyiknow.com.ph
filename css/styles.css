@@ -1068,7 +1068,7 @@ svg:hover {
 .contacts-background {
     background-color: #000B14;
     width: 100%;
-    min-height: 80vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1518,6 +1518,7 @@ textarea {
         grid-template-columns: 1fr;
         justify-content: center;
         gap: 4rem;
+        width: 60%;
     }
     .arrowcontainer4 {
         display: none;
@@ -1532,6 +1533,13 @@ textarea {
     .dotscontainer5, .dotscontainer4 {
         gap: 1.5rem;
     }
+    .dotscontainer, .dotscontainer3 {
+        right: 1.5rem;
+    }
+    .dotscontainer1, .dotscontainer2, .dotscontainer7, .dotscontainer6 {
+        left: 1.5rem;
+    }
+    
     .clientstitle {
         font-size: 5rem;
     }
@@ -1543,7 +1551,10 @@ textarea {
         width: 15rem;
     }
     .activities-collage {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .activities-collage img {
+        height: 20rem;
     }
     .contactscontainer {
         flex-direction: column;
@@ -1559,32 +1570,29 @@ textarea {
     }
 }
 
-@media only screen and (max-width: 1024px){
-    .about-maincontainer {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .arrowcontainer {
-        display: none;
-    }
-    .about-clipart {
-        position: absolute;
-        right: 0;
-        bottom: 20px;
-    }
-    .leftabout {
-        position: absolute;
-        top: 10rem;
-    }
-    .abouttitle {
-        writing-mode: horizontal-tb;
-        text-align: center;
-        font-size: 7rem;
+@media only screen and (max-width: 900px){
+    .title {
+        width:60rem;
     }
     .right-subtitle {
-        font-size: 2.7rem;
+        font-size: 3rem;
+    }
+    .rightabout {
+        width: 50rem;
+    }
+    .aboutdescription {
+        font-size: 1.7rem;
+        text-align: start;
+    }
+    .about-clipart {
+        display: none;
+    }
+    .about-maincontainer {
+        flex-direction: row-reverse;
+    }
+    .abouttitle {
+        transform: rotate(180deg);
+        font-size: 7rem;
     }
     .arrowcontainer {
         display: none;
@@ -1616,7 +1624,7 @@ textarea {
         display: none;
     }
     .gamepic {
-        width: 60rem;
+        width: 50rem;
     }
     .service-content {
         grid-template-columns: 1fr;
@@ -1642,8 +1650,15 @@ textarea {
     .dotscontainer1, .dotscontainer2, .dotscontainer7, .dotscontainer6 {
         left: 1.5rem;
     }
+    .dotscontainer, .dotscontainer1, .dotscontainer2, .dotscontainer3, .dotscontainer6, .dotscontainer7 {
+        row-gap: 1.5rem;
+        column-gap: 1rem;
+    }
+    .get p {
+        font-size: 2.5rem;
+    }
     .clientstitle {
-        font-size: 5rem;
+        font-size: 4rem;
     }
     .logos {
         grid-template-columns: repeat(3, 15rem);
@@ -1653,7 +1668,10 @@ textarea {
         width: 15rem;
     }
     .activities-collage {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .activities-collage img {
+        height: 18rem;
     }
     .contactscontainer {
         flex-direction: column;
@@ -1663,9 +1681,11 @@ textarea {
         column-gap: 1.5rem;
         grid-template-columns: repeat(6, 1rem);
     }
-    .navlist span {
-       font-size: 1rem;
+    .topfooter, .bottomfooter  {
+        grid-template-columns: 1fr;
+        row-gap: 3rem;
     }
+   
 }
 
 @media only screen and (max-width: 768px){
