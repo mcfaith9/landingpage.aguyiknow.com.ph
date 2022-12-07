@@ -40,7 +40,6 @@ html {
 }  
 .navlist a:hover {
     transform: scale(1.2);
-    color: white;
 }
 .navlist a::after{
     content: '';
@@ -1508,7 +1507,12 @@ textarea {
    .arrowcontainer3 {
     display: none;
    }
-   
+   .navlist a{
+    font-size: 1.7rem;
+   }
+   .navlist a:hover {
+    transform: scale(1);
+    }
 }
 
 
