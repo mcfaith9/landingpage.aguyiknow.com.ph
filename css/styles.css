@@ -279,7 +279,7 @@ svg:hover {
 .about-maincontainer {
     display: flex;
     /* border: 1px solid white; */
-    
+    justify-content: center;
     /* width: 70rem; */
     gap: 1rem;
     /* margin-right: 17%; */
@@ -1048,6 +1048,8 @@ svg:hover {
 
 .companylogo-container img {
     width: 20rem;
+    /* object-fit: contain; */
+   
 }
 
 .logos {
@@ -1380,10 +1382,10 @@ textarea {
 }
 
 @media only screen and (max-width: 1280px){
-    .about-outercontainer {
+    /* .about-outercontainer {
         display: flex;
         justify-content: space-evenly;
-    }
+    } */
     .right-subtitle {
         font-size: 3rem;
     }
@@ -1409,11 +1411,16 @@ textarea {
         margin-left: 30px;
     }
     .box {
-        padding: 20px;
-        width: 50%;
+        padding: 3rem;
+        /* width: 50%; */
     }
     .service-content {
-        display: flex;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4rem;
+    }
+    .box:last-of-type {
+        grid-column-start: 1;
+        grid-column-end: 3;
     }
     .title {
         width: 700px;
@@ -1441,10 +1448,7 @@ textarea {
     .gamepic {
         width: 68rem;
     }
-    .service-content {
-        grid-template-columns: 1fr;
-        margin: 0px 20%;
-    }
+
     .contactscontainer {
         gap: 2rem;
     }
@@ -1457,62 +1461,107 @@ textarea {
 }
 
 @media only screen and (max-width: 1100px) {
-    .about-maincontainer {
-        width: 100rem;
-    }
-    .clients__group {
+    /* .about-maincontainer {
+        width: 50rem;
+    } */
+    .right-subtitle {
         font-size: 3rem;
     }
-
-    .activities-collage {
-        grid-template-columns: 1fr 1fr;
+    .rightabout {
+        width: 60rem;
+    }
+    .aboutdescription {
+        font-size: 1.7rem;
+        text-align: start;
+    }
+    .about-clipart {
+        display: none;
+    }
+    .about-maincontainer {
+        flex-direction: row-reverse;
+    }
+    .abouttitle {
+        transform: rotate(180deg);
+        font-size: 7rem;
+    }
+    .arrowcontainer {
+        display: none;
     }
     .projects-maincontainer {
-        display: flex;
-        margin-left: -100px;
+        flex-direction: column;
+        margin: 7rem 0px;
     }
-    .dotscontainer2 {
-        display: grid;
-        /* grid-template-columns: repeat(6, 1rem); */
-        position: absolute;
-        top: -50px;
+    .projectright {
+       margin-top: -3rem;
     }
-    .dotscontainer3 {
-        display: grid;
-        /* grid-template-columns: repeat(6,1rem); */
-        position: absolute;
-        bottom: 50px;
+    .slideshow-container {
+       grid-template-columns:  50rem;
+    }
+    .projecttitle {
+       writing-mode: horizontal-tb;
+       transform: rotate(0deg);
+    }
+    .arrowcontainer3 {
+       display: none;
     }
     .gamification-maincontainer {
-        margin-right: -80px;
+        flex-direction: column-reverse;
     }
+    .gamificationtitle {
+        writing-mode: horizontal-tb;
+    }
+    .arrowcontainer-gamification {
+        display: none;
+    }
+    .gamepic {
+        width: 60rem;
+    }
+    .service-content {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        gap: 4rem;
+    }
+    .arrowcontainer4 {
+        display: none;
+    }
+    .box {
+        padding: 5rem;
+    }
+    .box:last-of-type {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .dotscontainer5, .dotscontainer4 {
+        gap: 1.5rem;
+    }
+    .clientstitle {
+        font-size: 5rem;
+    }
+    .logos {
+        grid-template-columns: repeat(3, 15rem);
+        column-gap: 10rem;
+    }
+    .companylogo-container img {
+        width: 15rem;
+    }
+    .activities-collage {
+        grid-template-columns: 1fr;
+    }
+    .contactscontainer {
+        flex-direction: column;
+    }
+    .dotscontainer6 {
+        row-gap: 2rem;
+        column-gap: 1.5rem;
+        grid-template-columns: repeat(6, 1rem);
+    }
+    
+   
 }
 
 @media only screen and (max-width: 1024px){
    
-    .projects-maincontainer {
-     flex-direction: column;
-     margin: 7rem 0px;
-   }
-   .projectright {
-    margin-top: -3rem;
-   }
-   .slideshow-container {
-    grid-template-columns:  50rem;
-   }
-   .projecttitle {
-    writing-mode: horizontal-tb;
-    transform: rotate(0deg);
-   }
-   .arrowcontainer3 {
-    display: none;
-   }
-   .navlist a{
-    font-size: 1.7rem;
-   }
-   .navlist a:hover {
-    transform: scale(1);
-    }
+   
 }
 
 
