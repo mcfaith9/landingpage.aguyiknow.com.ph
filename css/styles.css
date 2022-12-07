@@ -1715,6 +1715,11 @@ textarea {
     }
     .clientstitle {
         display: flex;
+        margin-top: 10rem;
+        font-size: 4rem;
+    }
+    .clientstitle span{
+        margin-right: 1rem;
     }
     .clients-outercontainer {
         min-height: 0;
