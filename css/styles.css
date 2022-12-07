@@ -1563,6 +1563,12 @@ textarea {
     .dotscontainer5, .dotscontainer4 {
         gap: 1.5rem;
     }
+    .dotscontainer, .dotscontainer3 {
+        right: 1.5rem;
+    }
+    .dotscontainer1, .dotscontainer2, .dotscontainer7, .dotscontainer6 {
+        left: 1.5rem;
+    }
     .clientstitle {
         font-size: 5rem;
     }
