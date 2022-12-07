@@ -926,11 +926,11 @@ svg:hover {
 
 
 .dotscontainer5 {
-    /* position: absolute;
-    top: 1.5rem; */
-    /* right: 50%;
-    transform: translate(50%, 0%); */
-    margin-top: 1.25rem;
+    position: absolute;
+    top: 1.5rem;
+    right: 50%;
+    transform: translate(50%, 0%);
+    /* margin-top: 1.25rem; */
     display: grid;
     grid-template-columns: repeat(10, 1rem);
     gap: 2rem;
@@ -940,6 +940,8 @@ svg:hover {
     width: 100%;
     min-height: 100vh;
     background-color: white;
+    position: relative;
+    padding-bottom: 10rem;
     
 }
   .activities-maincontainer {
@@ -969,7 +971,6 @@ svg:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-    margin-bottom: 10rem;
     /* border: 1px solid black; */
 }
 
@@ -982,10 +983,11 @@ svg:hover {
 
 }
 .dotscontainer4 {
-
-    /* left: 50%; */
-    /* transform: translate(50%, 0%); */
-    margin-bottom: 1.25rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    /* margin-bottom: 1.25rem; */
     display: grid;
     grid-template-columns: repeat(10, 1rem);
     gap: 2rem;
@@ -1004,8 +1006,9 @@ svg:hover {
     position: relative;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 7.5rem;
+    gap: 5rem;
     
 }
 
@@ -1021,6 +1024,7 @@ svg:hover {
     font-size: 7rem;
     font-family: 'Inter', sans-serif;
     font-weight: bold;
+    margin-top: 15rem;
 }
 .clients__group {
     display: flex;
@@ -1689,6 +1693,12 @@ textarea {
 }
 
 @media only screen and (max-width: 768px){
+    .rightabout {
+        width: 40rem;
+    }
+    .right-subtitle {
+        font-size: 2.5rem;
+    }
     .dotscontainer,
     .dotscontainer1,
     .dotscontainer2,
@@ -1710,9 +1720,7 @@ textarea {
         justify-content: center;
         align-items: center;
     }
-    .box {
-        width: 50%;
-    }
+  
     .clientstitle {
         display: flex;
         margin-top: 10rem;
@@ -1721,9 +1729,16 @@ textarea {
     .clientstitle span{
         margin-right: 1rem;
     }
-    .clients-outercontainer {
-        min-height: 0;
+    .logos {
+        grid-template-columns: repeat(3, 12rem);
+        column-gap: 7rem;
     }
+    .companylogo-container img {
+        width: 12rem;
+    }
+    /* .clients-outercontainer {
+        min-height: 0;
+    } */
     .contacts-background {
         display: flex;
         justify-content: center;
@@ -1732,14 +1747,9 @@ textarea {
         margin-bottom: 5rem;
         margin-top: 5rem;
     }
-    .topfooter {
-        display: flex;
-        flex-direction: row;
-        /* justify-content: center;
-        align-items: center; */
-    }
-    .tf {
-        display: block;
+    .topfooter, .bottomfooter  {
+        grid-template-columns: 1fr;
+        row-gap: 3rem;
     }
 }
 
