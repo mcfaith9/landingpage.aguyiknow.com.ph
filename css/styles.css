@@ -1709,6 +1709,13 @@ textarea {
     .dotscontainer7 {
         display: none;
     }
+    .socialcontainer {
+        display: flex;
+        flex-direction: row;
+        /* position: absolute;
+        bottom: 10px; */
+        bottom: -10%;
+    }
     /* .services-outercontainer {
         display: flex;
         justify-content: center;
