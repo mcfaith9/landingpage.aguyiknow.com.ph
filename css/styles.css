@@ -1709,17 +1709,12 @@ textarea {
         display: none;
     }
     .socialcontainer {
-        display: flex;
         flex-direction: row;
-        /* position: absolute;
-        bottom: 10px; */
-        bottom: -10%;
+        left: 50%;
+        top: auto;
+        bottom: 5%;
+        transform: translate(-50%, -50%);
     }
-    /* .services-outercontainer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    } */
     .service-content {
         display: flex;
         flex-direction: column;
