@@ -1757,7 +1757,94 @@ textarea {
         row-gap: 3rem;
     }
 }
+@media only screen and (max-width: 540px) {
+    .socialcontainer {
+        display: flex;
+        flex-direction: row;
+        /* justify-content: space-between; */
+        transform: none;
+        position: absolute;
+        left: 18rem;
+        bottom: -30rem;
+    }
+    .tooltip {
+        display: none;
+    }
+    .title {
+        width: 45rem;
+    }
+    .about-maincontainer {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .abouttitle {
+        transform: rotate(270deg);
+        font-size: 5rem;
+        /* margin-bottom: -8rem; */
+    }
+    .aboutdescription {
+        margin-top: -6.5rem;
+    }
+    .projecttitle {
+        font-size: 5rem;
+        /* grid-template-columns: 30rem; */
+    }
+    /* .slideshow-container {
+        grid-template-columns: 50rem;
+    } */
+    .gamification-maincontainer {
+        margin-left: 0;
+    }
+    .gamificationtitle {
+        font-size: 5rem;
+    }
+    .servicestitle {
+        font-size: 5rem;
+    }
+    .box {
+        padding: 4rem;
+        height: 40rem;
+    }
+    .get  {
+        display: flex;
+        flex-direction: column;
+    }
+    .getleft {
+        margin-top: -40px;
+        margin-bottom: 50px;
+    }
+    .activities-maincontainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .activitiestitle {
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        margin-bottom: 10px;
+    }
+    .activities-collage {
+        grid-template-columns: 1fr;
+        /* column-gap: 20px; */
+    }
+    .logos {
+        grid-template-columns: 1fr;
+        /* margin: 2rem; */
+        padding: 50px;
+    }
+    .top-left {
+        font-size: 2.5rem;
+    }
+    .bot-left {
+        font-size: 6.6rem;
+        margin-bottom: 10px;
+    }
 
+}
 @media only screen and (max-width: 414px) {
     /* .navcontainer {
         width: 100vh;
