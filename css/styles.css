@@ -654,7 +654,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    padding: 5rem 0px 10rem;
     width: 100%;
     background-color: #ffffff;
     position: relative;
