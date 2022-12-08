@@ -160,7 +160,7 @@ html {
 .gmail-icon-container:hover .tooltip {
     opacity: 1;
 }
-svg:hover {
+.socmed:hover {
     fill: white;
     transform: scale(1.2);
 }
@@ -1412,9 +1412,7 @@ textarea {
     .projects-maincontainer {
         margin-right: -100px;
     }
-    .gamification-maincontainer {
-        margin-left: 30px;
-    }
+    
     .box {
         padding: 3rem;
         /* width: 50%; */
@@ -1797,8 +1795,147 @@ textarea {
         flex-direction: column;
     }
 }
-/* @media (max-width: 800px) {
-    html, body {
-    overflow-x: hidden;
+@media (max-width: 375px) {
+    .title {
+        width: 30rem;
     }
-  } */
+    .subtitle {
+        gap: 1rem;
+    }
+    .subtitle p {
+        font-size: 1.5rem;
+    }
+    .description-container {
+        padding: 0px 3rem;
+    }
+    .description {
+        font-size: 1.3rem;
+        line-height: 1.7rem;
+    }
+    .socialcontainer svg {
+        width: 20px;
+        height: 20px;
+    }
+    .about-maincontainer {
+        flex-direction: column-reverse;
+        width: 30rem;
+    }
+    .abouttitle {
+        writing-mode: horizontal-tb;
+        rotate: 180deg;
+        font-size: 5rem;
+    }
+    .right-subtitle {
+        font-size: 2rem;
+    }
+    .rightabout {
+        width: 30rem;
+    }
+    .separator-container {
+        bottom: -3px;
+    }
+    .projecttitle {
+        font-size: 5rem;
+    }
+    .sld-left {
+        width: 30rem;
+    }
+    .sld-left img {
+        width: 30rem;
+    }
+    .slideshow-container {
+        width: 30rem;
+    }
+    .sld-right {
+        width: 30rem;
+    }
+    .gamificationtitle {
+        font-size: 4rem;
+    }
+    .gamepic {
+        width: 30rem;
+    }
+    .gamificationcaption {
+        font-size: 1.7rem;
+    }
+    .separator-container2 {
+        top: -3px;
+    }
+    .servicestitle {
+        font-size: 5rem;
+    }
+    .box {
+        padding: 3rem;
+    }
+    .service-content {
+        width: 30rem;
+    }
+    .get  {
+        flex-direction: column;
+        gap: 7rem;
+    }
+    .get p {
+        font-size: 2rem;
+    }
+    .get a {
+        font-size: 1.4rem;
+    }
+    .separator-container3 {
+        bottom: -3px;
+    }
+    .activitiestitle {
+        font-size: 4rem;
+    }
+    .activities-collage {
+        grid-template-columns: 1fr;
+    }
+    .activities-collage img {
+        height: 10rem;
+    }
+    .clientstitle {
+        font-size: 3rem;
+        display: inline;
+        text-align: center;
+    }
+    .logos {
+        grid-template-columns: repeat(2, 10rem);
+        column-gap: 5rem;
+    }
+    .companylogo-container img {
+        width: 10rem;
+    }
+    .top-left {
+        font-size: 1.5rem;
+    }
+    .bot-left {
+        font-size: 4rem;
+    }
+    textarea {
+        width: 27rem;
+    }
+    ::placeholder {
+        font-size: 1.3rem;
+    }
+    .sendbtn {
+        font-size: 1.2rem;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    } 
+    .tf svg {
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+    .tf p, .bf p{
+        font-size: 1.2rem;
+    }
+    .bottomfooter {
+        row-gap: 5rem;
+    }
+    .copyright-text  {
+        padding: 1.5rem 0px;
+    }
+    .copyright-text p {
+        font-size: 1rem;
+    }
+  }
