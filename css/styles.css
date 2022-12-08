@@ -1796,7 +1796,7 @@ textarea {
         width: 40rem;
     }
     .slideshow-container {
-        width: 40rem;
+        grid-template-columns: 40rem;
     }
     .sld-right {
         width: 40rem;
@@ -1900,9 +1900,9 @@ textarea {
     .clients__group {
         font-size: 1rem;
     } */
-    .projects-maincontainer {
+    /* .projects-maincontainer {
         flex-direction: column;
-    }
+    } */
 }
 @media (max-width: 375px) {
     
@@ -1954,7 +1954,7 @@ textarea {
         width: 30rem;
     }
     .slideshow-container {
-        width: 30rem;
+        grid-template-columns: 30rem;
     }
     .sld-right {
         width: 30rem;
