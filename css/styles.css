@@ -943,7 +943,7 @@ html {
     min-height: 100vh;
     background-color: white;
     position: relative;
-    padding-bottom: 10rem;
+    
     
 }
   .activities-maincontainer {
@@ -953,6 +953,7 @@ html {
     justify-content: center;
     position: relative;
     gap: 2rem;
+    padding-bottom: 25rem;
 }
 .act-titleandarrows {
     display: flex;
@@ -1678,13 +1679,6 @@ textarea {
 }
 
 @media only screen and (max-width: 768px){
-    .socialcontainer {
-        flex-direction: row;
-        left: 50%;
-        top: auto;
-        bottom: 5%;
-        transform: translate(-50%, -50%);
-    }
     .rightabout {
         width: 40rem;
     }
@@ -1714,7 +1708,9 @@ textarea {
         justify-content: center;
         align-items: center;
     }
-  
+    .activities-maincontainer {
+        padding-bottom: 10rem;
+    }
     .clientstitle {
         display: flex;
         margin-top: 10rem;
