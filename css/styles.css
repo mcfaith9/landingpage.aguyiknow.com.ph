@@ -1369,16 +1369,11 @@ textarea {
         column-gap: 1.5rem;
     }
     .service-content {
-        /* grid-template-columns: repeat(2, 1fr); */
         gap: 4rem;
     }
     .box {
         padding: 5rem;
     }
-    /* .box:last-of-type {
-        grid-column-start: 1;
-        grid-column-end: 3;
-    } */
     .top-left {
         font-size: 3rem;
     }
@@ -1388,10 +1383,6 @@ textarea {
 }
 
 @media only screen and (max-width: 1280px){
-    /* .about-outercontainer {
-        display: flex;
-        justify-content: space-evenly;
-    } */
     .right-subtitle {
         font-size: 3rem;
     }
@@ -1405,18 +1396,12 @@ textarea {
         width: 17rem;
         margin-right: 8rem;
     }
-    /* .about-maincontainer {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    } */
     .projects-maincontainer {
         margin-right: -100px;
     }
     
     .box {
         padding: 3rem;
-        /* width: 50%; */
     }
     .service-content {
         grid-template-columns: repeat(2, 1fr);
@@ -1692,6 +1677,13 @@ textarea {
 }
 
 @media only screen and (max-width: 768px){
+    .socialcontainer {
+        flex-direction: row;
+        left: 50%;
+        top: auto;
+        bottom: 5%;
+        transform: translate(-50%, -50%);
+    }
     .rightabout {
         width: 40rem;
     }
@@ -1708,18 +1700,6 @@ textarea {
     .dotscontainer7 {
         display: none;
     }
-    .socialcontainer {
-        display: flex;
-        flex-direction: row;
-        /* position: absolute;
-        bottom: 10px; */
-        bottom: -10%;
-    }
-    /* .services-outercontainer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    } */
     .service-content {
         display: flex;
         flex-direction: column;
@@ -1742,9 +1722,6 @@ textarea {
     .companylogo-container img {
         width: 12rem;
     }
-    /* .clients-outercontainer {
-        min-height: 0;
-    } */
     .contacts-background {
         display: flex;
         justify-content: center;
@@ -1784,11 +1761,7 @@ textarea {
 
     .projecttitle {
         font-size: 5rem;
-        /* grid-template-columns: 30rem; */
     }
-    /* .slideshow-container {
-        grid-template-columns: 50rem;
-    } */
     .sld-left {
         width: 40rem;
     }
@@ -1834,12 +1807,6 @@ textarea {
         margin-top: -40px;
         margin-bottom: 50px;
     }
-    /* .activities-maincontainer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    } */
     .activitiestitle {
         font-size: 5rem;
     }
