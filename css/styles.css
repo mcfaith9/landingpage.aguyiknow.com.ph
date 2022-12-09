@@ -1883,7 +1883,7 @@ textarea {
          width: 30rem;
      }
      .separator-container {
-         bottom: -3px;
+         bottom: -1px;
      }
      .projecttitle {
          font-size: 5rem;
@@ -1895,7 +1895,7 @@ textarea {
          width: 30rem;
      }
      .slideshow-container {
-         width: 30rem;
+         width: 32rem;
      }
      .sld-right {
          width: 30rem;
@@ -1921,10 +1921,6 @@ textarea {
      .service-content {
          width: 30rem;
      }
-     .get  {
-         flex-direction: column;
-         gap: 7rem;
-     }
      .get p {
          font-size: 2.5rem;
      }
@@ -1933,6 +1929,10 @@ textarea {
      }
      .separator-container3 {
          bottom: -3px;
+     }
+     .act-titleandarrows{
+        justify-content: center;
+        margin-top: 2rem;
      }
      .activitiestitle {
          font-size: 4rem;
@@ -1943,10 +1943,15 @@ textarea {
      .activities-collage img {
          height: 20rem;
      }
+     .clients-outercontainer{
+        min-height: 0vh;
+        gap: 0;
+     }
      .clientstitle {
         font-size: 3.2rem;
         /* display: inline; */
         text-align: center;
+        margin: 2rem;
      }
      .logos {
          grid-template-columns: repeat(2, 10rem);
