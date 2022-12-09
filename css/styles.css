@@ -1809,6 +1809,7 @@ textarea {
     }
     .box:hover {
         padding: 10px;
+        transform: scale(1.10);
     }
     .get  {
         display: flex;
@@ -2057,6 +2058,9 @@ textarea {
     }
     .box {
         padding: 3rem;
+    }
+    .box:hover{
+        transform: scale(1.10);
     }
     .service-content {
         width: 30rem;
