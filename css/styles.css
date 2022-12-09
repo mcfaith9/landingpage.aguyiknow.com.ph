@@ -2051,7 +2051,7 @@ textarea {
     }
     .get  {
         flex-direction: column;
-        gap: 7rem;
+        gap: 2rem;
     }
     .get p {
         font-size: 2rem;
