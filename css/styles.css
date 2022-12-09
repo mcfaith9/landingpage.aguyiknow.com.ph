@@ -1762,7 +1762,6 @@ textarea {
         rotate: 180deg;
         font-size: 5rem;
     }
-
     .projecttitle {
         font-size: 5rem;
     }
@@ -1802,6 +1801,9 @@ textarea {
     .box {
         padding: 4rem;
         height: 40rem;
+    }
+    .box:hover {
+        padding: 10px;
     }
     .get  {
         display: flex;
