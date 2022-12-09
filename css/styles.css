@@ -1349,6 +1349,8 @@ textarea {
 }
 /* keyframes end */
 
+
+
 /* RESPONSIVE */
 
 
@@ -1702,6 +1704,9 @@ textarea {
         bottom: 5%;
         transform: translate(-50%, -50%);
     }
+    .tooltip {
+        display: none;
+    }
     .service-content {
         display: flex;
         flex-direction: column;
@@ -1832,13 +1837,15 @@ textarea {
     .companylogo-container img {
         width: 15rem;
     }
+    /* .contactleft {
+        text-align: left;
+    } */
     .top-left {
         font-size: 2.5rem;
     }
     .bot-left {
         font-size: 5.5rem;
     }
-
 }
 @media only screen and (max-width: 414px) {
      .navlist{
@@ -1867,6 +1874,9 @@ textarea {
          width: 25px;
          height: 25px;
      }
+     .tooltip {
+        display: none;
+    }
      .about-maincontainer {
          flex-direction: column-reverse;
          width: 30rem;
