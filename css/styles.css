@@ -32,8 +32,8 @@ nav {
 	top: 0;
 	padding: 0 5%;
 	height: 100px;
-    background-color: #000B14;
-
+    background-color: #000b14;
+    /* backdrop-filter: blur(5px); */
 }
 
 nav .center-icon {
@@ -158,14 +158,14 @@ nav .icon-burger .line {
 
 .socialcontainer {
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 4rem;
     transform: translate(-0%, -50%);
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
-    z-index: 99;
+    z-index: 9;
 
 }
 
@@ -1595,28 +1595,23 @@ textarea {
 }
 
 @media only screen and (max-width: 768px){
-    .navlist {
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-        /* justify-content: start;
-        align-items: flex-start; */
-        background-color: #000B14;
-        position: absolute;
+    nav {
+        height: 70px;
     }
+
     nav .links {
 		float: none;
 		position: fixed;
 		z-index: 9;
 		left: 0;
 		right: 0;
-		top: 100px;
+		top: 70px;
 		bottom: 100%;
 		width: auto;
 		height: auto;
 		flex-direction: column;
 		justify-content: space-evenly;
-		background-color: rgba(0,0,0,.8);
+		background-color: #000b14b4;
 		backdrop-filter: blur(5px);
 		overflow: hidden;
 		box-sizing: border-box;
