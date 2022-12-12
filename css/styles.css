@@ -156,7 +156,7 @@ nav .icon-burger .line {
 
 .socialcontainer {
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 4rem;
     transform: translate(-0%, -50%);
     display: flex;
