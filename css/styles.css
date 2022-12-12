@@ -1590,6 +1590,15 @@ textarea {
 }
 
 @media only screen and (max-width: 768px){
+    .navlist {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        /* justify-content: start;
+        align-items: flex-start; */
+        background-color: #000B14;
+        position: absolute;
+    }
     nav .links {
 		float: none;
 		position: fixed;
