@@ -1278,9 +1278,9 @@ textarea {
         width: 17rem;
         margin-right: 8rem;
     }
-    .projects-maincontainer {
+    /* .projects-maincontainer {
         margin-right: -100px;
-    }
+    } */
     
     .box {
         padding: 3rem;
@@ -1814,7 +1814,7 @@ textarea {
          width: 30rem;
      }
      .slideshow-container {
-         width: 32rem;
+        grid-template-columns: 30rem;
      }
      .sld-right {
          width: 30rem;
@@ -2085,11 +2085,9 @@ textarea {
         font-size: 3rem;
     }
     .projects-maincontainer {
-        width: 20rem;
+        grid-template-columns: 20rem;
     }
-    /* .projectright {
-        width: 100%;
-    } */
+
     .sld-left {
         width: 20rem;
     }
