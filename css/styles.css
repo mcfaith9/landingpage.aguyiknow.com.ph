@@ -2044,7 +2044,7 @@ textarea {
         width: 20rem;
     }
     .subtitle {
-        gap: -1rem;
+        gap: .5rem;
     }
     .subtitle p {
         font-size: 1rem;
